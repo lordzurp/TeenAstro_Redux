@@ -1,5 +1,5 @@
 # TeenAstro Redux
-###a mini version of the mini version
+#### a mini version of the mini version
 ===========================
 
 # What is Redux ?
