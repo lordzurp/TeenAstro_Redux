@@ -2,7 +2,7 @@
 #### a mini version of the mini version
 ===========================
 
-# What is Redux ?
+## What is Redux ?
 The main goal of this flavour of TeenAstro hardware is to achieve the smallest board possible, and by extension the smallest case.
 
 This is obtained by onboarding lot of modular parts, like stepper drivers or power supply, in a almost fully SMD board.
@@ -14,14 +14,14 @@ The project is sseparated in 2 parts, assembled on the same PCB for easier way
 * Main board, who receive the Teensy and the GPS modules
 * Hand controller, who integrate a discret version of Wemos D1 (based on ESP8266 MCU)
 
-# Who Redux is for ?
+## Who Redux is for ?
 Smaller, simplier (and a bit cheaper), Redux version is althrough intented in priority to beginners who want a plug and forget solution, just working with their first telescope.
 
 See next point, the limitations would say a no-go for enthusiats with already tons of material.
 
 If you want to use sophisticated hardware, please take a look on regular TeenAstro
 
-# Features
+## Features
 Almost all the features of TeenAstro regular board
 
 * Compatible with TeenAstro Mini version software
@@ -39,7 +39,7 @@ Neitherless, there are a few variations and limitations against the mini and mai
 * no replaceable part, meaning if something goes wrong, the whole board will dying ...
 * no fuse, so be **very** careful with power supply (related to previous point, it's a **die-and-rebuy** version)
 
-# Build
+## Build
 The choices made for this board, due to small size and SMD asembly, lead to an increased skill needed to achieve the complete building of the project. Be aware of your skill before you go to do a Redux version.
 
 * FPC connector with 0.5mm pitch. use soldering flux !
@@ -49,7 +49,7 @@ The choices made for this board, due to small size and SMD asembly, lead to an i
 
 these points said, the board come moslty assembled, and you'll have few components to add
 
-# Parts list
+## Parts list
 
 * PCB on [EasyEDA](https://easyeda.com/lordzurp/TeenAstro_Redux) (direct ordering on JLCpcb inside the soft)
 * Teensy 3.2
@@ -59,13 +59,13 @@ these points said, the board come moslty assembled, and you'll have few componen
 
 
 
-# Support
+## Support
 Questions and discussion should be on the mailing list (also accessible via the
 web) at the [TeenAstro Group](https://groups.io/g/TeenAstro/wiki/Home).
 
-# License
+## License
 MIT
 
-# Author
+## Author
 lordzurp
 based on great work of Charles Lemaire, [Howard Dutton](http://www.stellarjourney.com)
