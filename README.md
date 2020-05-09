@@ -6,7 +6,8 @@
 The main goal of this flavour of TeenAstro hardware is to achieve the smallest board possible, and by extension the smallest case.
 
 This is obtained by onboarding lot of modular parts, like stepper drivers or power supply, in a almost fully SMD board.
-to be convenient to produce, the board was engeriined to be assembled by JLCpcb, an china prototype specialist (the part list is selected inside their catalog). 
+
+to be convenient to produce, the board was engineered to be assembled by JLCpcb, an china prototype specialist (the part list is selected inside their catalog).
 
 The project is sseparated in 2 parts, assembled on the same PCB for easier way
 
