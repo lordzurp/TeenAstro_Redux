@@ -3,7 +3,8 @@
 ===========================
 
 # What is Redux ?
-The main goal of this flavour of TeenAstro hardware is to achieve the smallest board possible, and by extension the smallest case
+The main goal of this flavour of TeenAstro hardware is to achieve the smallest board possible, and by extension the smallest case.
+
 This is obtained by onboarding lot of modular parts, like stepper drivers or power supply, in a almost fully SMD board.
 to be convenient to produce, the board was engeriined to be assembled by JLCpcb, an china prototype specialist (the part list is selected inside their catalog). 
 
@@ -14,6 +15,7 @@ The project is sseparated in 2 parts, assembled on the same PCB for easier way
 
 # Who Redux is for ?
 Smaller, simplier (and a bit cheaper), Redux version is althrough intented in priority to beginners who want a plug and forget solution, just working with their first telescope.
+
 See next point, the limitations would say a no-go for enthusiats with already tons of material.
 
 If you want to use sophisticated hardware, please take a look on regular TeenAstro
