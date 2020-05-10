@@ -51,8 +51,8 @@ The project is separated in 2 parts, jointed on the same PCB for easier way
 * Hand controller, who integrate a discret version of Wemos D1 (based on ESP8266 MCU)
 
 ![Schematic Hand Controller](/Schematics/Hand_controller.png)
-![Hand Controller - top](/PCB/Hand_controller-top_.png).    
-![Hand Controller - bot](/PCB/Hand_controller-bot_.png)
+![Hand Controller - top](/PCB/Hand_controller-top.png).    
+![Hand Controller - bot](/PCB/Hand_controller-bot.png)
 
 
 ## Build
