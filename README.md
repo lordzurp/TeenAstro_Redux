@@ -56,7 +56,7 @@ The project is separated in 2 parts, jointed on the same PCB for easier way
 
 
 ## Build
-The choices made for this board, due to small size and SMD asembly, lead to an increased skill needed to achieve the complete building of the project against the other versions. Be aware of your skill before you go to do a Redux version.
+The choices made for this board, due to small size and SMD asembly, lead to an increased skill needed to achieve the complete building of the project against the other versions. Be aware of your skill before you go to make a Redux version.
 
 * FPC connector with 0.5mm pitch. use some soldering flux !
 * Mini-USB thru-holes connector with 0.8mm pitch
