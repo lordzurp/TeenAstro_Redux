@@ -87,7 +87,7 @@ Questions and discussion should be on the mailing list (also accessible via the
 web) at the [TeenAstro Group](https://groups.io/g/TeenAstro/wiki/Home).
 
 ## License
-MIT
+GPL v3
 
 ## Author
 lordzurp
