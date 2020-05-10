@@ -71,4 +71,4 @@ MIT
 
 ## Author
 lordzurp
-based on great work of Charles Lemaire, [Howard Dutton](http://www.stellarjourney.com)
+based on great work of [Charles Lemaire](https://github.com/charleslemaire0/TeenAstro), [Howard Dutton](http://www.stellarjourney.com)
