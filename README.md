@@ -45,14 +45,14 @@ The project is separated in 2 parts, jointed on the same PCB for easier way
 * Main board, who receive the Teensy and the GPS modules
 
 ![Schematic Main Board](/Schematics/Main_board.png)
-![Main Board - top](/Pictures/Main_board-top.png)
-![Main Board - bot](/Pictures/Main_board-bot.png)
+![Main Board - top](/PCB/Main_board-top.png)
+![Main Board - bot](/PCB/Main_board-bot.png)
 
 * Hand controller, who integrate a discret version of Wemos D1 (based on ESP8266 MCU)
 
 ![Schematic Hand Controller](/Schematics/Hand_controller.png)
-![Hand Controller - top](/Pictures/Hand_controller-top_.png)
-![Hand Controller - bot](/Pictures/Hand_controller-bot_.png)
+![Hand Controller - top](/PCB/Hand_controller-top_.png)
+![Hand Controller - bot](/PCB/Hand_controller-bot_.png)
 
 
 ## Build
