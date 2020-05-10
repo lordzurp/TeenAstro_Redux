@@ -9,17 +9,20 @@ This is obtained by onboarding lot of modular parts, like stepper drivers or pow
 
 to be convenient to produce, the board was engineered to be assembled by JLCpcb, an china prototype specialist (the part list is selected inside their catalog).
 
-The project is sseparated in 2 parts, assembled on the same PCB for easier way
+The project is separated in 2 parts, jointed on the same PCB for easier way
 
 * Main board, who receive the Teensy and the GPS modules
 * Hand controller, who integrate a discret version of Wemos D1 (based on ESP8266 MCU)
+
+![PCB top view](Pictures/TeenAstro Redux - PCB top view.png)
+![PCB bottom view](TeenAstro Redux - PCB bottom view.png)
 
 ## Who Redux is for ?
 Smaller, simplier (and a bit cheaper), Redux version is althrough intented in priority to beginners who want a plug and forget solution, just working with their first telescope.
 
 See next point, the limitations would say a no-go for enthusiats with already tons of material.
 
-If you want to use sophisticated hardware, please take a look on regular TeenAstro
+If you want to use sophisticated hardware, please take a look on regular TeenAstro boards
 
 ## Features
 Almost all the features of TeenAstro regular board
@@ -32,7 +35,7 @@ Almost all the features of TeenAstro regular board
 * up to 3A stepper motor
 * 2.12" OLED screen, in a modified SNES gamepad (china clone of course !) 
 
-Neitherless, there are a few variations and limitations against the mini and main versions :
+However, there are a few variations and limitations against the mini and main versions :
 
 * no ST4 port
 * no focuser option
@@ -45,7 +48,7 @@ The choices made for this board, due to small size and SMD asembly, lead to an i
 * FPC connector with 0.5mm pitch. use soldering flux !
 * Mini-USB thru-holes connector with 0.8mm pitch
 * SMD pins headers whosen't stay in their holes (because they din't have holes)
-* **very** small box, with less place to work
+* **very** small board with little place to work
 
 these points said, the board come moslty assembled, and you'll have few components to add
 
