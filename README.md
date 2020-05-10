@@ -14,8 +14,8 @@ The project is separated in 2 parts, jointed on the same PCB for easier way
 * Main board, who receive the Teensy and the GPS modules
 * Hand controller, who integrate a discret version of Wemos D1 (based on ESP8266 MCU)
 
-![PCB top view](Pictures/TeenAstro Redux - PCB top view.png)
-![PCB bottom view](TeenAstro Redux - PCB bottom view.png)
+![PCB top view](/Pictures/TeenAstro%20Redux%20-%20PCB%20top%20view.png)
+![PCB bottom view](/Pictures/TeenAstro%20Redux%20-%20PCB%20bottom%20view.png)
 
 ## Who Redux is for ?
 Smaller, simplier (and a bit cheaper), Redux version is althrough intented in priority to beginners who want a plug and forget solution, just working with their first telescope.
