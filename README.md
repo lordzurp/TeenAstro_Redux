@@ -3,15 +3,15 @@
 ===========================
 
 ## What is TeenAstro ?
-TeenAstro is a Telescope controller for Equatorial and Altazimuth mounts.
+TeenAstro is a **Telescope controller** for Equatorial and Altazimuth mounts (incluing Dobson).
 It is a tribute to the FS2 system from Michael Koch.
 
-It is an open source, open hardware do-it-yourself project, forked from On Step, the first mature controller based on Arduino hardware.
+TeenAstro is an **open source, open hardware** do-it-yourself project, forked from On Step, the first mature controller based on Arduino hardware.
 
 ## What is Redux ?
-The main goal of this flavour of TeenAstro hardware is to achieve the smallest board possible, and by extension the smallest case.
+The main goal of this flavour of TeenAstro hardware is to achieve the **smallest board possible**, and by extension the smallest case.
 
-This is obtained by onboarding max of modular parts, like stepper drivers or power supply, in a almost fully SMD board. But this come with compromises, see features list below
+This is obtained by **onboarding** some modular parts, like stepper drivers or power supply, in a **almost fully SMD** board. But this come with compromises, the main is the **lack of backward compatibility** with original FS2 system. See features list below.
 
 ## Who Redux is for ?
 Smaller, simplier (and a bit cheaper), Redux version is althrough **intented in priority to beginners** who want a **simple, plug and forget solution**, just working with their first telescope.
@@ -23,7 +23,7 @@ If you want to use sophisticated hardware, please take a look on regular TeenAst
 ## Features
 Almost all the features of TeenAstro regular board
 
-* Compatible with TeenAstro Mini version software
+* Compatible with **TeenAstro software**
 * Teensy 3.2 powered
 * on-board GPS
 * ASCOM USB driver
@@ -36,8 +36,8 @@ However, there are a few variations and limitations against the mini and main ve
 
 * no ST4 port
 * no focuser option
-* no replaceable part, meaning if something goes wrong, the whole board will dying ...
-* no fuse, so be **very** careful with power supply (related to previous point, it's a **die-and-rebuy** version)
+* **no** replaceable part, meaning if something goes wrong, the whole board will dying ...
+* **no** fuse, so be **very** careful with power supply (related to previous point, it's a **die-and-rebuy** version)
 
 ## Sources
 
@@ -57,16 +57,18 @@ The project is separated in 2 parts, jointed on the same PCB for easier way
 
 
 ## Build
-The choices made for this board, due to small size and SMD asembly, lead to an increased skill needed to achieve the complete building of the project against the other versions. Be aware of your skill before you go to make a Redux version.
+The choices made for this board, due to small size and SMD asembly, lead to an **increased skill needed** to achieve the complete building of the project against the other versions. Be aware of your skill **before** you go to make a Redux version.
 
-* FPC connector with 0.5mm pitch. use some soldering flux !
+* FPC connector with 0.5mm pitch. **use some soldering flux** !
 * Mini-USB thru-holes connector with 0.8mm pitch
 * SMD pins headers whosen't stay in their holes (because they don't have holes)
 * **very** small board with little place to work
 
 these points said, the board come moslty assembled, and you'll have few components to add
 
-To be produced, the card was designed to be assembled by JLCpcb, a Chinese specialist in prototypes (the list of parts is selected from their catalog). You can easily order the circuits alone, but without precise and expensive Pick'n'Place machines, you will not be able to solder the components on the PCB, many of them measure less than 1.5 x 0.75 mm (and this is really not great  to solder by hand)
+To be produced, the card was designed to be **assembled by JLCpcb**, a Chinese specialist in prototypes (the list of parts is selected from their catalog).
+
+You can easily order the circuits alone, but without precise and expensive Pick'n'Place machines, you **will not** be able to solder the components on the PCB, many of them measure less than 1.5 x 0.75 mm (and this is really not great to solder by hand)
 
 ## Parts list
 
@@ -78,9 +80,9 @@ To be produced, the card was designed to be assembled by JLCpcb, a Chinese speci
 * [SNES gamepad](https://www.amazon.fr/dp/B07R91BTKZ/) 6€ the twice
 * Componants on [Farnell / Element14](https://fr.farnell.com/webapp/wcs/stores/servlet/PFOrderCopy?orderId=go50hjG4clGzbzcQri22OCnaGykOMFe1bIZYWgR9xz8%3d_IBM_2&langId=-2&storeId=10160&catalogId=10001&URL=AjaxOrderItemDisplayView&ICID=TREML010-007) 290€ for 5 kits
 
-##### Do **bulk orders**, 10 or 20 kits at once, you'll save lot of money
+#### Do **bulk orders**, 10 or 20 kits at once, you'll save lot of money
 
-the kit costs around the 150 €
+the kit costs around the **150 €**
 
 ## Support
 Questions and discussion should be on the mailing list (also accessible via the
