@@ -11,12 +11,14 @@ TeenAstro is an **open source, open hardware** do-it-yourself project, forked fr
 ## What is Redux ?
 The main goal of this flavour of TeenAstro hardware is to achieve the **smallest board possible**, and by extension the smallest case.
 
+Also, the hand controller come into a SNES gamepad
+
 This is obtained by **onboarding** some modular parts, like stepper drivers or power supply, in a **almost fully SMD** board. But this come with compromises, the main is the **lack of backward compatibility** with original FS2 system.
 
 All this gives this 
 
-* Main board : 40x83mm
-* Case : 90x50x24mm
+* Main board : 40x83mm, case : 90x50x24mm
+* Hand controller : 30x83mm, case : the size of SNES gamepad :)
 
 ![3D View](/PCB/TeenAstro_Redux-3D.png)
 
@@ -37,7 +39,7 @@ Almost all the features of TeenAstro regular board
 * TMC5160 motor driver
 * up to 25V power voltage
 * up to 3A stepper motor
-* 2.12" OLED screen, in a modified SNES gamepad (china clone of course !) 
+* 2.12" OLED screen, in a modified SNES gamepad
 
 However, there are a few variations and limitations against the mini and main versions :
 
