@@ -20,7 +20,9 @@ All this gives this
 * Main board : 40x83mm, case : 90x50x24mm
 * Hand controller : 30x83mm, case : the size of SNES gamepad :)
 
-![3D View](/PCB/TeenAstro_Redux-3D.png)
+![3D View](/PCB/Main_board-3D.png)
+
+![3D View](/PCB/Hand_controller-3D.png)
 
 ## Who Redux is for ?
 Smaller, simplier (and a bit cheaper), Redux version is althrough **intented in priority to beginners** who want a **simple, plug and forget solution**, just working with their first telescope.
@@ -50,7 +52,7 @@ However, there are a few variations and limitations against the mini and main ve
 
 ## Sources
 
-The project is separated in 2 parts, jointed on the same PCB for easier way
+The project is separated in 2 boards
 
 * Main board, who receive the Teensy and the GPS modules
 
