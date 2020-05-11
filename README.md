@@ -13,7 +13,11 @@ The main goal of this flavour of TeenAstro hardware is to achieve the **smallest
 
 This is obtained by **onboarding** some modular parts, like stepper drivers or power supply, in a **almost fully SMD** board. But this come with compromises, the main is the **lack of backward compatibility** with original FS2 system.
 
-All this gives this card
+All this gives this 
+
+* Main board : 40x83mm
+* Case : 90x50x24mm
+
 ![3D View](/PCB/TeenAstro_Redux-3D.png)
 
 ## Who Redux is for ?
