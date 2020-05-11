@@ -76,7 +76,7 @@ To be produced, the card was designed to be assembled by JLCpcb, a Chinese speci
 * Teensy 3.2 ~24€ piece
 * GPS module like [Neo-6](https://www.ebay.fr/itm/GY-NEO6MV2-NEO-6M-GPS-Module-APM2-5-Flight-Control-w-IPX-interface-For-Arduino/273932103174?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2057872.m2749.l2649) from 5 to 30€, depending of your patience
 * [SNES gamepad](https://www.amazon.fr/dp/B07R91BTKZ/) 6€ the twice
-* Componants on [Farnell / Element14](https://fr.farnell.com/webapp/wcs/stores/servlet/PFOrderCopy?orderId=vDW5TcPW5zSxy%2fe6zh5%2fCJKzbsLq7ImEPYU0hqMQlGM%3d_IBM_2&langId=-2&storeId=10160&catalogId=15001&URL=AjaxOrderItemDisplayView&ICID=TREML010-007) 290€ for 5 kits
+* Componants on [Farnell / Element14](https://fr.farnell.com/webapp/wcs/stores/servlet/PFOrderCopy?orderId=go50hjG4clGzbzcQri22OCnaGykOMFe1bIZYWgR9xz8%3d_IBM_2&langId=-2&storeId=10160&catalogId=10001&URL=AjaxOrderItemDisplayView&ICID=TREML010-007) 290€ for 5 kits
 
 ##### Do **bulk orders**, 10 or 20 kits at once, you'll save lot of money
 
