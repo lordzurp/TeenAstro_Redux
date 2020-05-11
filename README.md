@@ -11,7 +11,10 @@ TeenAstro is an **open source, open hardware** do-it-yourself project, forked fr
 ## What is Redux ?
 The main goal of this flavour of TeenAstro hardware is to achieve the **smallest board possible**, and by extension the smallest case.
 
-This is obtained by **onboarding** some modular parts, like stepper drivers or power supply, in a **almost fully SMD** board. But this come with compromises, the main is the **lack of backward compatibility** with original FS2 system. See features list below.
+This is obtained by **onboarding** some modular parts, like stepper drivers or power supply, in a **almost fully SMD** board. But this come with compromises, the main is the **lack of backward compatibility** with original FS2 system.
+
+All this gives this card
+![3D View](/PCB/TeenAstro_Redux-3D.png)
 
 ## Who Redux is for ?
 Smaller, simplier (and a bit cheaper), Redux version is althrough **intented in priority to beginners** who want a **simple, plug and forget solution**, just working with their first telescope.
