@@ -79,7 +79,7 @@ these points said, the board come moslty assembled, and you'll have few componen
 
 To be produced, the card was designed to be **assembled by JLCpcb**, a Chinese specialist in prototypes (the list of parts is selected from their catalog).
 
-You can easily order the circuits alone, but without precise and expensive Pick'n'Place machines, you **will not** be able to solder the components on the PCB, many of them measure less than 1.5 x 0.75 mm (and this is really not great to solder by hand)
+You can easily order the circuits alone, but without skill, practice and specials tools, you **will not** be able to solder the components on the PCB, many of them measure less than 1.5 x 0.75 mm (and this is really not great to solder by hand). Don't try to save a couple of bucks, order already assembled PCB, unless you exacly know what you do.
 
 ## Parts list
 
@@ -89,6 +89,14 @@ To make the project, you'll need to assemble the board :
 	* 200€ includind customs and shipping, for 5 kits 
 	* 275€ for 10 kit, and discounting
 * Componants on [Farnell / Element14](https://fr.farnell.com/webapp/wcs/stores/servlet/PFOrderCopy?orderId=go50hjG4clGzbzcQri22OCnaGykOMFe1bIZYWgR9xz8%3d_IBM_2&langId=-2&storeId=10160&catalogId=10001&URL=AjaxOrderItemDisplayView&ICID=TREML010-007) 290€ for 5 kits
+
+### Screen Choice
+
+2 OLED displays are compatible with this board : 
+
+* Midas MCOT128064QV (Farnell #2769705) 2.7 "
+* Midas MCOT128064U1V (Farnell #2769709) 2.42 "
+
 
 the kit costs around the **100 €** by 5 pieces
 
