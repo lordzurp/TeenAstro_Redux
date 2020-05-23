@@ -6,11 +6,18 @@
 
 ### v3.0 - 23/05/2020
 
+#### New features
+
 * ajout MOSFet de protection contre les inversions de polarité
 * ajout pastille pour X1 - éclairage réticule
-* ajout d'un module nRF24 sur bus SPI pour liaison RF
+* liaison RF nRF24 sur bus SPI
 	* /CS relié à A0-D14
 	* /CE relié à A1-D15
+	* librairie arduino : https://tmrh20.github.io/RF24/
+
+####Bug Fixes
+
+* nothing yet
 
 ### v2.41 - 10/5/2020
 
@@ -35,6 +42,8 @@
 
 ### v3.0 - 23/05/2020
 
+#### New features
+
 * multiplexage des boutons via un 74HC151
 	* tous les boutons sont forcés à GND et passent à +3.3V à l'état actif
 	* livrairie arduino : https://playground.arduino.cc/Code/MUX151/
@@ -53,7 +62,17 @@
 		* API **system_adc_read**
 	* switch pour couper l'alimentation de la carte
 * mini platine micro-USB + power switch déporté
+
+#### Bug fixes
+
 * connecteur FCP au pas de 1.0mm
+* cablage du connecteur modifié (/RES à Vdd)
+* CH340G changé pour CH340C
+* modif cablage AMS1117 (pad à +3.3V)
+
+#### à tester 
+* WiFi non fonctionnel sur v1
+
 
 
 ### v1.0 - 10/05/2020
