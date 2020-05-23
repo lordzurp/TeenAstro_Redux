@@ -78,7 +78,7 @@
 ### v1.0 - 10/05/2020
 
 * basé sur TeenAstro SHC v0.1
-* ESP8266 + CH340C
+* ESP8266 + CH340G
 * capa + resistances pull-down CMS
 * alim 12V pour écran OLED Midas
 * connecteur FCP au pas de 0.5mm (beaucoup trop petit !)
