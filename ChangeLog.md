@@ -1,9 +1,6 @@
-# TeenAstro Redux
+# TeenAstro Redux - Changelog
 #### a mini version of the TeenAstro mini version
 ===========================
-
-
-#Changelog
 
 ## Main Board
 
@@ -47,14 +44,13 @@
 * liaison RF nRF24 sur bus SPI
 	* librairie arduino : https://tmrh20.github.io/RF24/
 	* /CS et /CE reliés à GPIO0 -> flag de config : RF24_TINY
-* système gestion de batterie Li-Ion BQ24075
+* gestion autonome de batterie Li-Ion **BQ24075**
 	* Vin via USB
 	* Vout sur le +5V
-	* Vbatt relié à **Tout **
+	* Vbatt relié à **Tout**
 		* analog input, max 1V
 		* ratio 1/5.7, Vbatt 4.2V = 0.737V)
 		* API **system_adc_read**
-	* gestion autonome de la batterie
 	* switch pour couper l'alimentation de la carte
 * mini platine micro-USB + power switch déporté
 * connecteur FCP au pas de 1.0mm
