@@ -9,15 +9,20 @@
 #### New features
 
 * ajout MOSFet de protection contre les inversions de polarité
-* ajout pastille pour X1 - éclairage réticule
+* Ajout header pour accueillir le focuser
 * liaison RF nRF24 sur bus SPI
 	* /CS relié à A0-D14
 	* /CE relié à A1-D15
 	* librairie arduino : https://tmrh20.github.io/RF24/
 
+#### Changes
+
+* passage de la batterie sur la face BOT
+* réorganisation de l'alim 5V
+
 ####Bug Fixes
 
-* nothing yet
+* rajout pastille pour X1 - éclairage réticule
 
 ### v2.41 - 10/5/2020
 
@@ -45,7 +50,7 @@
 #### New features
 
 * multiplexage des boutons via un 74HC151
-	* tous les boutons sont forcés à GND et passent à +3.3V à l'état actif
+	* tous les boutons sont forcés à GND et passent à Vcc à l'état actif
 	* livrairie arduino : https://playground.arduino.cc/Code/MUX151/
 	* connexion du 74HC151 :
 		* S0, S1, S2 reliés respectivement à GPIO15, GPIO12, GPIO14
@@ -56,11 +61,11 @@
 * gestion autonome de batterie Li-Ion **BQ24075**
 	* Vin via USB
 	* Vout sur le +5V
-	* Vbatt relié à **Tout**
+	* Vbatt relié à Tout
 		* analog input, max 1V
 		* ratio 1/5.7, Vbatt 4.2V = 0.737V)
 		* API **system_adc_read**
-	* switch pour couper l'alimentation de la carte
+	* inter physique pour couper l'alimentation de la carte
 * mini platine micro-USB + power switch déporté
 
 #### Bug fixes
@@ -72,8 +77,6 @@
 
 #### à tester 
 * WiFi non fonctionnel sur v1
-
-
 
 ### v1.0 - 10/05/2020
 

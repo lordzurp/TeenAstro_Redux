@@ -9,56 +9,53 @@ It is a tribute to the FS2 system from Michael Koch.
 TeenAstro is an **open source, open hardware** do-it-yourself project, forked from On Step, the first mature controller based on Arduino hardware.
 
 ## What is Redux ?
-The main goal of this flavour of TeenAstro hardware is to achieve the **smallest board possible**, and by extension the smallest case.
-
-Also, the hand controller come into a SNES gamepad
+The first goal of this flavour of TeenAstro hardware is to achieve the **smallest board possible**, and by extension the smallest case.
 
 This is obtained by **onboarding** some modular parts, like stepper drivers or power supply, in a **almost fully SMD** board. But this come with compromises, the main is the **lack of backward compatibility** with original FS2 system.
 
 All this gives this 
 
-* Main board : 40x83mm, case : 90x50x24mm
-* Hand controller : 30x83mm, case : the size of SNES gamepad :)
+* Main board : 40x82mm, case : 90x50x24mm (32mm with focuser extension)
 
 ![3D View](/PCB/Main_board-3D.png)
 
 ![3D View](/PCB/Hand_controller-3D.png)
 
-## Who Redux is for ?
-Smaller, simplier (and a bit cheaper), Redux version is althrough **intented in priority to beginners** who want a **simple, plug and forget solution**, just working with their first telescope.
-
-Seen next point, the limitations would say a no-go for enthusiats with already tons of material.
-
-If you want to use sophisticated hardware, please take a look on regular TeenAstro boards
 
 ## Features
-Almost all the features of TeenAstro regular board
+Almost all the features of TeenAstro regular board are present
 
 * Compatible with **TeenAstro software**
+* **wireless connexion** between main unit and remote
 * Teensy 3.2 powered
 * on-board GPS
 * ASCOM USB driver
 * TMC5160 motor driver
 * up to 25V power voltage
 * up to 3A stepper motor
-* 2.12" OLED screen, in a modified SNES gamepad
+* 2.42" OLED screen, in a modified SNES gamepad
+* Polarity inversion protection
+* focuser bpard can be easily added (with 32mm enclosure)
+
 
 However, there are a few variations and limitations against the mini and main versions :
 
 * no ST4 port
-* no focuser option
 * **no** replaceable part, meaning if something goes wrong, the whole board will dying ...
-* **no** fuse, so be **very** careful with power supply (related to previous point, it's a **die-and-rebuy** version)
 
 ## Sources
 
-The project is separated in 2 boards
+The project is separated in 3 boards
 
 * Main board, who receive the Teensy and the GPS modules
 
 ![Schematic Main Board](/Schematics/Main_board.png)
 ![Main Board - top](/PCB/Main_board-top.png)	
 ![Main Board - bot](/PCB/Main_board-bot.png)
+
+* Focuser, who came in top of main board
+Schematic
+PCB
 
 * Hand controller, who integrate a discret version of Wemos D1 (based on ESP8266 MCU)
 
@@ -70,16 +67,15 @@ The project is separated in 2 boards
 ## Build
 The choices made for this board, due to small size and SMD asembly, lead to an **increased skill needed** to achieve the complete building of the project against the other versions. Be aware of your skill **before** you go to make a Redux version.
 
-* FPC connector with 0.5mm pitch. **use some soldering flux** !
-* Mini-USB thru-holes connector with 0.8mm pitch
+* small composants with small pads. **use some soldering flux** !
 * SMD pins headers whosen't stay in their holes (because they don't have holes)
 * **very** small board with little place to work
 
-these points said, the board come moslty assembled, and you'll have few components to add
+these points said, the board come moslty assembled, and you'll have few components to add. 
 
 To be produced, the card was designed to be **assembled by JLCpcb**, a Chinese specialist in prototypes (the list of parts is selected from their catalog).
 
-You can easily order the circuits alone, but without skill, practice and specials tools, you **will not** be able to solder the components on the PCB, many of them measure less than 1.5 x 0.75 mm (and this is really not great to solder by hand). Don't try to save a couple of bucks, order already assembled PCB, unless you exacly know what you do.
+You can easily order the circuits alone, but without skill, practice and specials tools, you **will not** be able to solder the components on the PCB, many of them measure less than 1mm (and this is really not great to solder by hand). Don't try to save a couple of bucks, order fully assembled PCB, unless you exacly know what you do.
 
 ## Parts list
 
