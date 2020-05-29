@@ -88,7 +88,7 @@ To make the project, you'll need to assemble the board :
 
 ### Screen Choice
 
-2 OLED displays are compatible with this board : 
+2 OLED displays are compatible with this board, each with 4 colours (white, yellow, green and blue)
 
 * Midas MCOT128064QV (Farnell #2769705) 2.7 "
 * Midas MCOT128064U1V (Farnell #2769709) 2.42 "
