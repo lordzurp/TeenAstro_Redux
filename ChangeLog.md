@@ -4,7 +4,7 @@
 
 ## Main Board
 
-### v3.0 - 23/05/2020
+### v3.0 beta 1 - 23/05/2020
 
 #### New features
 
@@ -20,7 +20,7 @@
 * passage de la batterie sur la face BOT
 * réorganisation de l'alim 5V
 
-####Bug Fixes
+#### Bug Fixes
 
 * rajout pastille pour X1 - éclairage réticule
 
@@ -36,7 +36,9 @@
 
 ## Focuser
 
-### v3.0 - 23/05/2020
+### v3.0 beta 1 - 23/05/2020
+
+**Initial release**
 
 * basé sur TeenAstro main v2.4.1
 * TMC5160 intégré
@@ -45,20 +47,20 @@
 
 ## Hand Controller
 
-### v3.0 - 23/05/2020
+### v3.0 beta 1 - 23/05/2020
 
 #### New features
 
-* multiplexage des boutons via un 74HC151
+* multiplexage des boutons : **PCA9554APW**
+	* bus I2C
+	* /INT relié à GPIO13
 	* tous les boutons sont forcés à GND et passent à Vcc à l'état actif
-	* livrairie arduino : https://playground.arduino.cc/Code/MUX151/
-	* connexion du 74HC151 :
-		* S0, S1, S2 reliés respectivement à GPIO15, GPIO12, GPIO14
-		* Y relié à GPIO13
-* liaison RF nRF24 sur bus SPI
-	* librairie arduino : https://tmrh20.github.io/RF24/
+	* livrairie arduino : https://github.com/AD0ND/PCA9554
+* liaison RF : **nRF24L01+**
+	* bus SPI
 	* /CS et /CE reliés à GPIO0 -> flag de config : RF24_TINY
-* gestion autonome de batterie Li-Ion **BQ24075**
+	* librairie arduino : https://tmrh20.github.io/RF24/
+* gestion de batterie Li-Ion **BQ24075**
 	* Vin via USB
 	* Vout sur le +5V
 	* Vbatt relié à Tout
@@ -71,14 +73,16 @@
 #### Bug fixes
 
 * connecteur FCP au pas de 1.0mm
-* cablage du connecteur modifié (/RES à Vdd)
-* CH340G changé pour CH340C
+* cablage du connecteur modifié (/RES à Vdd, capas ...)
+* ajout du quartz pour le CH340G
 * modif cablage AMS1117 (pad à +3.3V)
 
 #### à tester 
 * WiFi non fonctionnel sur v1
 
 ### v1.0 - 10/05/2020
+
+**NON FONCTIONNEL**
 
 * basé sur TeenAstro SHC v0.1
 * ESP8266 + CH340G
