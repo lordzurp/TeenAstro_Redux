@@ -52,7 +52,7 @@
 #### New features
 
 * multiplexage des boutons : **PCA9554APW**
-	* bus I2C
+	* bus I2C, adresse 0x20
 	* /INT relié à GPIO13
 	* tous les boutons sont forcés à GND et passent à Vcc à l'état actif
 	* livrairie arduino : https://github.com/AD0ND/PCA9554
