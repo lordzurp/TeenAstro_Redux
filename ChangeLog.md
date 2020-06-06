@@ -26,6 +26,8 @@
 
 ### v2.41 - 10/5/2020
 
+**Initial release**
+
 * basé sur teenastro mini v2.4.1
 * suppresion du port ST4
 * alim 5V intégrée (XL1509-5.0)
@@ -81,6 +83,8 @@
 * WiFi non fonctionnel sur v1
 
 ### v1.0 - 10/05/2020
+
+**Initial release**
 
 **NON FONCTIONNEL**
 
