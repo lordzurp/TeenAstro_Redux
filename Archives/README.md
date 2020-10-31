@@ -1,6 +1,6 @@
 # TeenAstro Redux
 #### a mini version of the TeenAstro mini version
-===========================
+=========================
 
 ## What is TeenAstro ?
 TeenAstro is a **Telescope controller** for Equatorial and Altazimuth mounts (incluing Dobson).

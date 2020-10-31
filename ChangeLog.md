@@ -1,10 +1,29 @@
-# TeenAstro Redux - Changelog
+# TeenAstro Redux Project - Changelog
 #### a mini version of the TeenAstro mini version
 ===========================
 
-## Main Board
+## SuperMini - PI Edition
+
+### v3.0 beta 2 - 16/10/2020
+
+**Fully revamped board**
+
+#### New features
+* Teensy 4.0 : **break** teensy 3.2 compatibility due of change in pins assignement
+* encoders headers
+
+#### Changes
+* 4-layers board
+* Raspberry PI 3 form factor
+* compatible with PI 3B cases
+* new 5V power circuit
+
+#### Bug Fixes
+
 
 ### v3.0 beta 1 - 23/05/2020
+
+**NOT RELEASED and NOT TESTED**
 
 #### New features
 
@@ -36,11 +55,29 @@
 * module GPS intégré
 
 
+## SuperRedux
+
+### v2.5 beta 1 - 16/10/2020
+
+**Initial release**
+
+* based on 2.4.2 Mini version
+* minimal version
+
 ## Focuser
+
+### v3.0 beta 2 - 16/10/2020
+
+**Fully revamped board**
+
+* match the beta 2 main board
+* TMC2130 onboard
+* deported connectors to main board
+
 
 ### v3.0 beta 1 - 23/05/2020
 
-**Initial release**
+**NOT RELEASED and NOT TESTED**
 
 * basé sur TeenAstro main v2.4.1
 * TMC5160 intégré
@@ -50,6 +87,8 @@
 ## Hand Controller
 
 ### v3.0 beta 1 - 23/05/2020
+
+**WIFI NON FONCTIONNEL**
 
 #### New features
 
