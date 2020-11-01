@@ -2,14 +2,14 @@
 #### a mini version of the TeenAstro mini version
 ===========================
 
-## SuperMini 3.0 - the PI Edition
+## SuperRedux 2.5 - the Small One
 
 ### Production notes
 
 **Follow JLCpcb capabilities**
 
-* 2-layers board
-* Min track width : 0.2mm
-* Min clearence : 0.15mm
+* 4-layers board
+* Min track width : 0.15mm
+* Min clearence : 0.13mm
 * Via size : 0.25/0.5mm
 
