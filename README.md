@@ -13,7 +13,7 @@ The primary goal of this flavour of TeenAstro hardware is to get the **smallest 
 
 This is achieved by **onboarding** some modular parts, such as stepper drivers or power supply, in a **almost fully SMD** board. But that comes with tradeoffs, the main one being the lack of ability to change parts if something goes wrong.
 
-It started in the Great Spring 2020 containment, and the first prototype resulted in an all-in-one functional board, with 2-axis drivers, in an 80x40mm board. But a few things were left out during development, like "fit into a box" ...
+It started in the Great Spring 2020 containment, and the first prototype resulted in an all-in-one functional product, with 2-axis drivers, in an 80x40mm board. But a few things were left out during development, like "fit into a box" ...
 
 The Great Fall 2020 containment yielded the second prototype, which was designed to fit into a Raspberry PI 3B enclosure, and becomes the **SuperMini PI Edition**
 
