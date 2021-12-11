@@ -39,6 +39,7 @@ Depending of the case choice, it may need to have external antenna (not enough p
 
 #### Focuser
 **awaiting software devloppement**
+
 The board can be used for main mount control **or** focuser / derotator control.
 
 there is a link port, to rely the 2 boards and provide unified controls with a crossover cable.
