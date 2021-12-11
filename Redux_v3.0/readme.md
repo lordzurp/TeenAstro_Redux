@@ -1,88 +1,81 @@
 # TeenAstro Redux Project
-#### a mini version of the TeenAstro mini version
+
+#### A mini version of the TeenAstro mini
 ===========================
 
-## Redux 3.0 - the Finale Edition
-
-
-===========================
-### Pre release notes
-The board isn't still validated, please don't go to built it now !!!
-Also, the firmware isn't yet ready to publish
-
+## Redux 3.0—Final Edition
 ===========================
 
-This version is a mix between the main and the mini board, trying to have a (very) small board size who can be easily integrated with mounts, and to keep the extended functions of the main unit
+### Pre-release notes
+The board isn’t validated yet, please don’t build it right now! Also, the firmware isn’t final neither.
+===========================
 
-## Evolution from v2.4 series
+This version is a mix between the main board and the mini board. The idea is to have a (very) small board that can easily integrate with mounts while still retaining the extended functions of the main unit.
+
+## Evolution from the v2.4 series
 
 ### Teensy 4.0
-The (not so) new Teensy 4.0 is a beast of computing power, with a 600MHz Cortex-M7 CPU.
-It is almost pin-to-pin compatible with Teensy 3.2, modulo the UART.
+The (not so) new Teensy 4.0 is a beast of computing power, with a 600 MHz Cortex-M7 CPU. It is almost pin-to-pin compatible with the Teensy 3.2, except for the UART.
 
-The biggest difference is the 4.0 **isn't 5V compliant**, having to switch to a  logic voltage of 3.3V for the whole board and SHC.
+The main difference is that the 4.0 **isn’t 5 V compliant**, the logic voltage is 3.3 V across the board and the SHC.
 
-The routing of the board has been updated accordingly, and to follow new form-factor constraints. So, specific firmware is needed, with branch 3.0 (under developpement)
+The board’s routing was updated to comply with the constraints of the new form factor. As a consequence, specific firmware is needed, with branch 3.0 (under development).
 
-### Integrated stepper driver
-To reduce assembling complexity, the motor drivers are soldered directly to the board.
-It provides more reliable connections and easier production.
+### Integrated Stepper Driver
+To minimize the assembling complexity of the unit, the motor drivers are soldered directly to the board. This makes for more reliable connections and easier production.
 
-The chosen drivers are **TMC2660**
+The chosen drivers are the **TMC2660**.
 
-They have all the benefits and internal functions of the TMC5160, but with integrated MOSfet, capable of driving 3A max stepper motors, protected by resettable fuses
+They include all the benefits and internal functions of the TMC5160, but with integrated MOSfet which is capable of driving the 3A max stepper motors and is protected by resetting fuses.
 
-### on-board GPS
-There is the place to solder a GPS module directly on the board.
+### Onboard GPS
+There is a space on the board to solder a GPS module.
 
-Depending of the case choice, it may need to have external antenna (not enough place inside, or metal case who reduce antenna gain)
+Depending on the casing, you may need an external antenna (if there’s not enough place inside, or if the casing is made of metal which would reduce the gain of the antenna).
 
 ### Focuser
-**awaiting software devloppement**
+**Awaiting software development**
 
-The board can be used for main mount control **or** focuser / derotator control. The additionnal chip (DS1302) is on board, can be used by the focuser firmware and ignored by the main firmware.
+The board can be used either to control the mount or the focuser or the derotator. The onboard additional chip (DS1302) can be used by the focuser’s firmware and ignored by the main firmware.
 
-there is a link port, to rely the 2 boards and provide unified controls with a crossover cable.
-The function depend on which firmware is uploaded to the board.
+A link port allows connecting the two boards and it also provides unified controls with a crossover cable. The use depends on which firmware is uploaded to the board.
 
-### Reworked Power supply
-The Power Input is protected from inversion polarity, ESD and short-circuit with a resettable 3A fuse.
+### Reworked Power Supply
+The power input is protected from polarity inversion, ESD and short-circuiting by a resetting 3A fuse.
 
-The ON/OFF switch is now a logic-level switch, which don't have to support full board current. Any simple switch can do the job. There are 2 pads to solder wires, and it is possible to short them if no need of power-off
+The ON/OFF switch is now a logic-level switch, it doesn’t have to support the full-board current. Any regular switch will do the job. Two pads are added for soldering the wires and one can short-circuit them if there is no need for a power-off switch.
 
-The logic voltage is **3.3V**, according of Teensy 4.0 requirements (see below)
+The logic voltage is **3.3 V**, as per the Teensy 4.0 requirements (see below).
 
-The button cell is now a CR1220 (standard CR2032 is far too big now)
+The button battery is now a CR1220 (standard CR2032 is far too big).
 
 ### Protected I/O
-the SHC port and the link port are ESD-protected, so you can plug it while the board is ON (although it isn't recommended ...)
+The SHC port and the link port are ESD-protected, so you can plug them while the board is ON (although this isn’t recommended…).
 
-### Removed features
-* no longer ST4 port : since mount guidance requipes a computer, having only the USB_link option shouldn't be a big issue
+### Removed Features
+*	no ST4 port anymore: since the mount guiding requires a computer, having only the USB_link option shouldn’t be a problem.
 
+## Firmware Update Needed (WiP)
+*	new pinout
+*	TMC2660 support
+*	additional motor on the focuser: can be used for a secondary focuser or derotator. Some code is available in OnStep, need to review and merge
+*	INDI driver: unified control of mount and focuser with a single USB link
 
-## Firmware update needed (WiP)
-* renewed pinout
-* TMC2660 support
-* second motor on focuser : can be used for secondary focuser or derotator. some code is available in OnStep, need to review and merge
-* INDI driver : unified control of mount and focuser with a single USB link
+## Production Notes
+**Follows JLCpcb Capabilities**
 
-
-## Production notes
-
-**Follow JLCpcb capabilities**
-
-* 2-layers board
-* Min track width : 0.2mm
-* Min clearence : 0.2mm
-* Via size : 0.25/0.5mm
+*	2-layer board
+*	Min track width: 0.2 mm
+*	Min clearance: 0.2 mm
+*	Via size: 0.25/0.5 mm
 
 #### SMD parts
-the whole SMD parts are picked from the JLCpcb assembly list, so you can order fully SMD-assembled board.
+The whole SMD parts are sourced from the JLCpcb assembly list, so you can order a fully SMD-assembled board.
 
-#### Additionnals parts
-* Teensy 4.0
-* GPS module (neo-6 compatible)
-* Motor connectors ( 4 ways pitch 3.5mm or wires)
-* ON/OFF switch (optional)
-* Reticule connector (optional)
+#### Additional parts
+*	Teensy 4.0
+*	GPS module (neo-6 compatible)
+*	Motor connectors (4 ways pitch 3.5 mm or wires)
+*	ON/OFF switch (optional)
+*	Reticule connector (optional)
+

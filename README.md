@@ -49,7 +49,7 @@ Some improvements were made from the publicly released version 2.4, based on the
 * **Teensy 4.0** new board, more powerfull CPU, but in 3.3V only, and with a different pins mapping
 * **direct connection** to the PI, with the GPIO UART. no more USB cord
 * smaller board, excpecially for the SuperRedux, which make possible direct integration **into** the mount enclosure
-* can fit into the NafaBox stack, with direct interco to power bus and PI GPIO
+* compatible with the NafaBox stack, with direct interco to power bus and PI GPIO
 
 ## Sources
 All necessary files are available in this repo, so you can build your own easily. Don't forget to take a look into the [project homepage](https://groups.io/g/TeenAstro/wiki/Home)
