@@ -19,7 +19,6 @@
 ===========================
 
 ## Redux 3.0 — the Finale Edition
-===========================
 
 ### Pre-release notes
 
