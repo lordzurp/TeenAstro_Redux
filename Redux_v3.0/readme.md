@@ -29,6 +29,13 @@
 
 This version is a mix between the main board and the mini board. The idea is to have a (very) small board that can easily integrate with mounts while still retaining the extended functions of the main unit.
 
+
+## 3D view
+
+![3D_top](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Redux_v3.0/TeenAstro_Redux%20v3.0%20-%202_board_3D%20TOP.png)
+
+![3D_bot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Redux_v3.0/TeenAstro_Redux%20v3.0%20-%202_board_3D%20BOT.png)
+
 ## Schematics
 
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Redux_v3.0/TeenAstro_Redux%20v3.0%20-%201_schematic.png)
