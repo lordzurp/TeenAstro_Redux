@@ -1,9 +1,30 @@
 # TeenAstro Redux Project
 
 #### A mini version of the TeenAstro mini
+
+
+
+# ![](https://raw.githubusercontent.com/lordzurp/QSS/master/ressources/favicon.32.png) Quick Server Supervision
+
+
+
+[![GitHub release](http://img.shields.io/badge/Version-3.0_RC0-orange.svg?style=flat)][release]
+[![GPL 3.0 License](https://img.shields.io/badge/license-GPL_3.0-blue.svg?style=flat)][license] 
+
+[release]: https://github.com/lordzurp/QSS/releases
+[license]: https://raw.githubusercontent.com/lordzurp/QSS/master/LICENSE
+
+Monitoring de services web pour serveurs dédiés
+
+![ScreenShot](https://raw.githubusercontent.com/lordzurp/QSS/master/ressources/demo.png)
+
+
+
+
+
 ===========================
 
-## Redux 3.0—Final Edition
+## Redux 3.0 — the Finale Edition
 ===========================
 
 ### Pre-release notes
@@ -11,6 +32,11 @@ The board isn’t validated yet, please don’t build it right now! Also, the fi
 ===========================
 
 This version is a mix between the main board and the mini board. The idea is to have a (very) small board that can easily integrate with mounts while still retaining the extended functions of the main unit.
+
+## Schematics
+
+![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Redux_v3.0/TeenAstro_Redux%20v3.0%20-%201_schematic.png)
+
 
 ## Evolution from the v2.4 series
 
