@@ -3,8 +3,14 @@
 #### A mini version of the TeenAstro mini
 
 
+
+
+
 [![GitHub release](http://img.shields.io/badge/Version-3.0_RC0-orange.svg?style=flat)][release]
 [![GPL 3.0 License](https://img.shields.io/badge/license-GPL_3.0-blue.svg?style=flat)][license] 
+
+[release]: https://github.com/lordzurp/TeenAstro_Redux/releases
+[license]: https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/LICENSE
 
 
 
