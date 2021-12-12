@@ -29,6 +29,9 @@
 This version is a mix between the main board and the mini board. The idea is to have a (very) small board that can easily integrate with mounts while still retaining the extended functions of the main unit.
 
 
+## Source files
+[EasyEDA](https://oshwlab.com/lordzurp/teenastro-redux_v3)
+
 ## 3D view
 
 ![3D_top](TeenAstro_Redux_v3.0__2_board_3D_TOP_thumb.png)
