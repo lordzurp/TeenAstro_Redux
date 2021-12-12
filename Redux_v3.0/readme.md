@@ -3,20 +3,8 @@
 #### A mini version of the TeenAstro mini
 
 
-
-# ![](https://raw.githubusercontent.com/lordzurp/QSS/master/ressources/favicon.32.png) Quick Server Supervision
-
-
-
 [![GitHub release](http://img.shields.io/badge/Version-3.0_RC0-orange.svg?style=flat)][release]
 [![GPL 3.0 License](https://img.shields.io/badge/license-GPL_3.0-blue.svg?style=flat)][license] 
-
-[release]: https://github.com/lordzurp/QSS/releases
-[license]: https://raw.githubusercontent.com/lordzurp/QSS/master/LICENSE
-
-Monitoring de services web pour serveurs dédiés
-
-![ScreenShot](https://raw.githubusercontent.com/lordzurp/QSS/master/ressources/demo.png)
 
 
 
@@ -29,7 +17,7 @@ Monitoring de services web pour serveurs dédiés
 
 ### Pre-release notes
 
-The board isn’t validated yet, please don’t build it right now! Also, the firmware isn’t final neither.
+> The board isn’t validated yet, please don’t build it right now! Also, the firmware isn’t final neither.
 
 ===========================
 
