@@ -55,9 +55,10 @@ The SHC port and the link port are ESD-protected, so you can plug them while the
 ### Removed Features
 *	no ST4 port anymore: since the mount guiding requires a computer, having only the USB_link option shouldn’t be a problem.
 
-## Firmware Update Needed (WiP)
+## Firmware and software update needed (WiP)
 *	new pinout
 *	TMC2660 support
+*	Uploader and Config tool, to support new branch
 *	additional motor on the focuser: can be used for a secondary focuser or derotator. Some code is available in OnStep, need to review and merge
 *	INDI driver: unified control of mount and focuser with a single USB link
 
