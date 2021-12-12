@@ -28,7 +28,9 @@ Monitoring de services web pour serveurs dédiés
 ===========================
 
 ### Pre-release notes
+
 The board isn’t validated yet, please don’t build it right now! Also, the firmware isn’t final neither.
+
 ===========================
 
 This version is a mix between the main board and the mini board. The idea is to have a (very) small board that can easily integrate with mounts while still retaining the extended functions of the main unit.
