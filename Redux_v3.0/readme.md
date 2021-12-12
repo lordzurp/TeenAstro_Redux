@@ -32,9 +32,9 @@ This version is a mix between the main board and the mini board. The idea is to 
 
 ## 3D view
 
-![3D_top](TeenAstro_Redux%20v3.0%20-%202_board_3D%20TOP.png)
+![3D_top](TeenAstro_Redux_v3.0__2_board_3D_TOP_thumb.png)
 
-![3D_bot](TeenAstro_Redux%20v3.0%20-%202_board_3D%20BOT.png)
+![3D_bot](TeenAstro_Redux_3.0__board_3D_BOT_thumb.png)
 
 ## Schematics
 
