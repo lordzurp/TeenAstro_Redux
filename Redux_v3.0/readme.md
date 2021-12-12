@@ -37,7 +37,7 @@ This version is a mix between the main board and the mini board. The idea is to 
 
 ## Schematics
 
-![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Redux_v3.0/TeenAstro_Redux%20v3.0%20-%201_schematic.png)
+![ScreenShot](TeenAstro_Redux_v3.0__1_schematic.png)
 
 
 ## Evolution from the v2.4 series
