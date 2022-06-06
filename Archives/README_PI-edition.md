@@ -15,35 +15,41 @@ This is achieved by **onboarding** some modular parts, such as stepper drivers o
 
 It started in the Great Spring 2020 containment, and the first prototype resulted in an all-in-one functional product, with 2-axis drivers, in an 80x40mm board. But a few things were left out during development, like "fit into a box" ...
 
-The Great Fall 2020 containment yielded the second prototype, and too many followed ...
+The Great Fall 2020 containment yielded the second prototype, which was designed to fit into a Raspberry PI 3B enclosure, and becomes the **SuperMini PI Edition**
 
-As a side project started with a joke ("Can it fit into a tic-tac box ?"), the **SuperRedux** flavor followed a different way from the first draw, with stacking boards upto the Teensy board, and goes to a even smaller product. It works, but was a nightmare to built.
-
-
-At 2022 spring, the final version of v3.0 is **ready to build**
-
+As a side project started with a joke ("I'm sure it can fit into a tic-tac box !"), the **SuperRedux** flavor followed a different way from the first draw, with stacking boards upto the Teensy board, and goes to a even smaller product
 
 ## Features
-All the features of TeenAstro regular boards are present in the v3.0 version
+All the features of TeenAstro regular boards are present in the SuperMini version
 
 * Compatible with **TeenAstro software**
 * ASCOM and INDI USB driver
-* **MicroMod Teensy** (from Sparkfun) to reduce footprint
-* TMC2660 motor driver
+* TMC5160 motor driver
 * up to 25V power voltage
 * up to 3A stepper motor
 * Polarity inversion protection
-* focuser no longer require second Teensy
+* focuser board extension
 * on-board GPS
-* on-board WiFi module (in SHC)
+* on-board WiFi module
 
+the SuperRedux version lacks in some features, due to the small size
+
+* Compatible with **TeenAstro software**
+* ASCOM and INDI USB driver
+* TMC5160 motor driver
+* up to 25V power voltage
+* up to 3A stepper motor
+* NO polarity inversion protection
+* NO focuser
+* NO GPS
 
 ## So, what is new ?
-Some improvements were made from the publicly released version 2.4, based on the 2.5 work (teensy 4.0)
+Some improvements were made from the publicly released version 2.4, based on the 2.5 work (teensy 4.0) and the [NafaBox Hardware project](https://github.com/dragonlost/NAFABox-hardware)
 
 * **Teensy 4.0** new board, more powerfull CPU, but in 3.3V only, and with a different pins mapping
-* **on-board stepper drivers** 
-* smaller board, which make possible direct integration **into** the mount enclosure
+* **direct connection** to the PI, with the GPIO UART. no more USB cord
+* smaller board, excpecially for the SuperRedux, which make possible direct integration **into** the mount enclosure
+* compatible with the NafaBox stack, with direct interco to power bus and PI GPIO
 
 ## Sources
 All necessary files are available in this repo, so you can build your own easily. Don't forget to take a look into the [project homepage](https://groups.io/g/TeenAstro/wiki/Home)
