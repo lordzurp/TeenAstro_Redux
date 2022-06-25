@@ -69,5 +69,7 @@ les chantiers à prévoir pour exploiter pleinement les ajouts :
 ### prix de revient (calcul préliminaire, fabrication en chine)
 
 **par lot de 25**
+
 Version complete : **40€**
+
 Version mini : **25€**
