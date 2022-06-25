@@ -31,8 +31,8 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 	interface hard et soft identique (juste à changer le constructeur)
 	
 	MOSFET intégrés jsuqu'à 2.8A
-	
-	3 drivers moteur, permet d'integrer le focuser
+
+	**3 drivers moteur**, permet d'integrer le focuser sans rajouter un 2e teensy
 
 - #### entrées pour des encodeurs ABN
 	le teensy 4 a  un **module hardware** de gestion des encodeurs, et des libraires fournissent des méthodes toutes prètes pour les utiliser
@@ -63,10 +63,14 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 	format standardisé d'extension pour micro-controleur (avec chacun ses specs) : arduino, PI, ESP ...
 
 	respecte les specs de la fondation PI pour les HAT
+
 		- EEPROM d'auto-config du PI
 		- protection de l'alimentation (évite les conflits si le PI est déjà alimenté)
+		- format de la carte standard à tous les HAT
 
 	principal intéret : communication directe entre le teenastro et le pi via les pins GPIO (UART_1), libère un USB sur le pi
+
+	reprend tous les ajouts cités plus haut
 
 	compatible avec la plupart des boitiers PI (qui exposent les GPIO, bien sur)
 
@@ -84,8 +88,6 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 - #### Version Mini
 	c'est la version "low cost" developpée pour mon projet principal (kit de modif d'un petit dobson de table, le 130 heritage de SW)
 
-	reprend les fonctions de la mini 2.4 :
-	
 		- 2 moteurs
 		- GPS intégré
 		- encodeurs
@@ -112,12 +114,28 @@ les chantiers à prévoir pour exploiter pleinement les ajouts :
 
 ### prix de revient 
 
-calcul préliminaire, fabrication en chine, **ne prend pas en compte le surcout double-face** (pas encore actif chez JLCpcb, mais ils m'ont promis que ça arrive ibnetôt ...)
+calcul préliminaire à la grosse, fabrication en chine, **ne prend pas en compte le surcout double-face** (pas encore actif chez JLCpcb, mais ils m'ont promis que ça arrive ibnetôt ...)
+
+**par lot de 5**
+
+Version HAT : **56€**
+
+Version Redux : **50€**
+
+Version Mini : **38€**
 
 **par lot de 25**
 
 Version HAT : **40€**
 
-Version Redux : **36€**
+Version Redux : **35€**
 
 Version Mini : **25€**
+
+#### Composants à rajouter (toutes versions)
+
+	- connecteurs moteur (bornier à vis)
+	- headers
+	- Teensy M.2 (25-30€)
+	- téléco
+	- pile rechargeable LM1220
