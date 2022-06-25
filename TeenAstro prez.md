@@ -61,54 +61,56 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 ### Versions prévues (design en phase finale)
 
 - #### Version HAT
+
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_HAT_top_small.png)
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_HAT_bot_small.png)
 
-	HAT : Hardware Attached on Top -> carte montée au dessus
+HAT : Hardware Attached on Top -> carte montée au dessus
 
-	format standardisé d'extension pour micro-controleur (avec chacun ses specs) : arduino, PI, ESP ...
+format standardisé d'extension pour micro-controleur (avec chacun ses specs) : arduino, PI, ESP ...
 
-	respecte les specs de la fondation PI pour les HAT
+respecte les specs de la fondation PI pour les HAT
 
-		- EEPROM d'auto-config du PI
-		- protection de l'alimentation (évite les conflits si le PI est déjà alimenté)
-		- format de la carte standard à tous les HAT
+	- EEPROM d'auto-config du PI
+	- protection de l'alimentation (évite les conflits si le PI est déjà alimenté)
+	- format de la carte standard à tous les HAT
 
-	principal intéret : communication directe entre le teenastro et le pi via les pins GPIO (UART_1), libère un USB sur le pi
+principal intéret : communication directe entre le teenastro et le pi via les pins GPIO (UART_1), libère un USB sur le pi
 
-	reprend tous les ajouts cités plus haut
+reprend tous les ajouts cités plus haut
 
-	compatible avec la plupart des boitiers PI (qui exposent les GPIO, bien sur)
+compatible avec la plupart des boitiers PI (qui exposent les GPIO, bien sur)
 
-	PCB 4 couches, CMS double face
+PCB 4 couches, CMS double face
 	
 - #### Version Redux
+
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Redux_top_small.png)
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Redux_bot_small.png)
 
-	reprend toutes les fonctions de la version standard actuelle, + les ajouts de la version HAT (sans la liaison avec le pi)
+reprend toutes les fonctions de la version standard actuelle, + les ajouts de la version HAT (sans la liaison avec le pi)
 
-	connexion des moteurs sur bornier, encodeur + ST4 + T° focuser + polar sur header 2.54mm
+connexion des moteurs sur bornier, encodeur + ST4 + T° focuser + polar sur header 2.54mm
 	
-	prévu pour un boitier alu extrudé de 60x80 (hammond) ou intégration directement dans la monture (impression 3D)
+prévu pour un boitier alu extrudé de 60x80 (hammond) ou intégration directement dans la monture (impression 3D)
 
-	PCB 4 couches, CMS double face
+PCB 4 couches, CMS double face
 
 - #### Version Mini
+
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Mini_top_small.png)
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Mini_bot_small.png)
+c'est la version "low cost" developpée pour mon projet principal (kit de modif d'un petit dobson de table, le 130 heritage de SW)
 
-	c'est la version "low cost" developpée pour mon projet principal (kit de modif d'un petit dobson de table, le 130 heritage de SW)
+	- 2 moteurs
+	- GPS intégré
+	- encodeurs
+	- pas d'interface avec le PI
+	- pas de ST4
 
-		- 2 moteurs
-		- GPS intégré
-		- encodeurs
-		- pas d'interface avec le PI
-		- pas de ST4
+prévu pour un boitier alu extrudé de 60x80 (hammond)
 
-	prévu pour un boitier alu extrudé de 60x80 (hammond)
-
-	PCB 4 couches, CMS simple face
+PCB 4 couches, CMS simple face
 
 ### Evolution du soft
 Dans un premier temps, il y a juste un remap des pins à faire dans le firmware pour récuperer les fonctions de base
