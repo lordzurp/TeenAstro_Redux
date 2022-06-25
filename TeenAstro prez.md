@@ -28,14 +28,15 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 - #### driver moteur TMC2660
 	plus performant que les 2130, moins cher que les 5160
 	
-	interface hard et soft identique
+	interface hard et soft identique (juste à changer le constructeur)
 	
 	MOSFET intégrés jsuqu'à 2.8A
 	
 	3 drivers moteur, permet d'integrer le focuser
 
 - #### entrées pour des encodeurs ABN
-	le teensy 4 a  un module hardware de gestion des encodeurs, et des libraires fournissent des méthodes toutes prètes pour les utiliser
+	le teensy 4 a  un **module hardware** de gestion des encodeurs, et des libraires fournissent des méthodes toutes prètes pour les utiliser
+
 	essai prévu avec des encodeurs magnétiques 1024 points à 4$, en mode push-to (pas de boucle fermée pour l'instant, juste suivre les mouvements manuels)
 
 - #### Connecteur USB-C
@@ -76,7 +77,7 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 
 	connexion des moteurs sur bornier, encodeur + ST4 + T° focuser + polar sur header 2.54mm
 	
-	prévu pour un boitier alu extrudé de 60x80 (hammond)
+	prévu pour un boitier alu extrudé de 60x80 (hammond) ou intégration directement dans la monture (impression 3D)
 
 	PCB 4 couches, CMS double face
 
