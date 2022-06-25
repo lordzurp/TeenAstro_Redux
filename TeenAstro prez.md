@@ -61,7 +61,6 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 ### Versions prévues (design en phase finale)
 
 - #### Version HAT
-
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_HAT_top_small.png)
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_HAT_bot_small.png)
 
@@ -84,7 +83,6 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 	PCB 4 couches, CMS double face
 	
 - #### Version Redux
-
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Redux_top_small.png)
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Redux_bot_small.png)
 
@@ -97,7 +95,6 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 	PCB 4 couches, CMS double face
 
 - #### Version Mini
-
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Mini_top_small.png)
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Mini_bot_small.png)
 
