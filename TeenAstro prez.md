@@ -9,6 +9,9 @@ Rien n'était pleinement satisfaisant, trop grand, pas adapté pour rentrer dans
 la révolution : les MicroMod Sparkfun. un format standardisé de micro-controleurs dispo en plusieurs diversités (STM32, teensy, esp32 ...) avec un connecteur commun
 ça supprime la principale contrainte du teensy : les pins traversants qui empèche de faire une carte CMS propre
 
+nouveau design autour de ce nouveau teensy
+tous les autres blocs ont été testé et validé sur les différents proto (sauf le GPS intégré, mais il y a un failsafe apour un module standard)
+
 ### Points clés
 
 - Carte CMS livrée assemblée à 90+ %
@@ -36,40 +39,62 @@ la révolution : les MicroMod Sparkfun. un format standardisé de micro-controle
 - module GPS intégré
 	prévu en test sur le prochain proto, un module chinois intégré sur la carte, pour ne plus se poser la question duquel acheter parmi les 300 réfs de aliexpress
 
-- module de gestion de la carte
+- gestion de la carte (encore en chantier)
 	gestion des alims PI, teenastro, reset ...
-	mesure de la conso du système, tension batterie ...
+
+- alim
+	supporte jusqu'à 25V
+	prévu pour être relié à une batterie de visseuse (20V Li-Ion)
+	mesure de la conso du système, tension batterie ... en I2C relié au teensy
 
 ### Versions prévues (design en phase finale)
 
-- format HAT
+- Version HAT
 	HAT : Hardware Attached on Top -> carte montée au dessus
 	format standardisé d'extension pour micro-controleur (avec chacun ses specs) : arduino, PI, ESP ...
 	respecte les specs de la fondation PI pour les HAT
 		- EEPROM d'auto-config du PI
 		- protection de l'alimentation (évite les conflits si le PI est déjà alimenté)
 	principal intéret : communication directe entre le teenastro et le pi via les pins GPIO (UART_1), libère un USB sur le pi
+	PCB 4 couches, CMS double face
+	compatible avec la plupart des boitiers PI (qui exposent les GPIO, bien sur)
 
-- format Mini
+- Version Redux
+	reprend toutes les fonctions de la version standard actuelle, + les ajouts de la version HAT
+	connexion des moteurs sur bornier, encodeur + ST4 + T° focuser + polar sur header 2.54mm
+	PCB 4 couches, CMS double face
+	prévu pour un boitier alu extrudé de 60x80 (hammond)
+
+- Version Mini
 	c'est la version "low cost" developpée pour mon projet principal (kit de modif d'un petit dobson de table, le 130 heritage de SW)
-	2 moteurs, pas d'interface avec le PI, GPS intégré, pas de ST4 (inutile pour mon appli)
-	prévu poru un boitier alu extrudé de 60x80 (hammond)
+	reprend les fonctions de la mini 2.4 :
+		2 moteurs
+		GPS intégré
+		encodeurs
+		pas d'interface avec le PI
+		pas de ST4
+	PCB 4 couches, CMS simple face
+	prévu pour un boitier alu extrudé de 60x80 (hammond)
 
 ### Evolution du soft
-de base, il y a juste un remap des pins à faire dans le firmware pour récuperer les fonctions de base
+Dans un premier temps, il y a juste un remap des pins à faire dans le firmware pour récuperer les fonctions de base
+(j'ai une carte avec un pinout modifié et un teensy 4.0 qui tourne actuellement, juste avec une branche 290)
 
 les chantiers à prévoir pour exploiter pleinement les ajouts :
 
 - intégration du code focuser dans le teensy principal
 - ajout de la gestion des encodeurs (lib existantes)
 - ajouter une option dans le menu pour désactiver les moteurs, pour permettre les mouvements manuels sur un dobson sans débrayage mécanique
-- comm avec la carte, menu de gestion des alims (eteindre le pi), ajout d'une icone batterie avec gestion de % (il y a des lib pour ça)
+- gestion de la batterie : mesure tension, conso ... icone batterie (100/75/50/25%) (ya des libs toute pretes)
+- comm avec la carte, menu de gestion des alims (eteindre le pi)
 
 
-### prix de revient (calcul préliminaire, fabrication en chine)
+### prix de revient 
+
+calcul préliminaire, fabrication en chine, **ne prend pas en compte le surcout double-face** (pas encore actif chez JLCpcb, mais ils m'ont promis que ça arrive ibnetôt ...)
 
 **par lot de 25**
 
-Version complete : **40€**
-
-Version mini : **25€**
+Version HAT : **40€**
+Version Redux : **36€**
+Version Mini : **25€**
