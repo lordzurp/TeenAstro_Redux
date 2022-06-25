@@ -100,6 +100,7 @@ PCB 4 couches, CMS double face
 
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Mini_top_small.png)
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Mini_bot_small.png)
+
 c'est la version "low cost" developpée pour mon projet principal (kit de modif d'un petit dobson de table, le 130 heritage de SW)
 
 	- 2 moteurs
