@@ -85,6 +85,7 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 	c'est la version "low cost" developpée pour mon projet principal (kit de modif d'un petit dobson de table, le 130 heritage de SW)
 
 	reprend les fonctions de la mini 2.4 :
+	
 		- 2 moteurs
 		- GPS intégré
 		- encodeurs
