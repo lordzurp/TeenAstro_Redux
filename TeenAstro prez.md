@@ -1,6 +1,6 @@
 # TeenAstro v3
 
-### 2 ans plus tard, on en est où ?
+## 2 ans plus tard, on en est où ?
 5 versions fabriquées, plein de blocs logiques testés (driver moteur, alim ...), plusieurs form factors essayés, du plein format raspberry PI à la boite de tic-tac
 
 Rien n'était pleinement satisfaisant, trop grand, pas adapté pour rentrer dans un boitier, trop compliqué à assembler ...
@@ -15,43 +15,39 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 
 ### Points clés
 
-- Carte CMS livrée assemblée à 90+ %
-
+- #### Carte CMS livrée assemblée à 90+ %
 	c'est l'objectif depuis le début : proposer un design CMS tout intégré et assemblé en usine (chez JLCpcb). Pour réduire la barrière de la soudure des composants, le casse-tête du sourcing ...
 
-- Teensy 4 M.2
+- #### Teensy 4 M.2
+	Nouvelle version dev par sparkfun (en collab avec PJRC)
 
-	Nouvelle version dev par sparkfun
-	format M.2, le connecteur des cartes wifi de laptop 
+	format M.2, le connecteur des cartes wifi de laptop
+
 	40 I/O dispobile, autant que le TeensY 4.1, avec un format de 22x22mm
 
-- driver moteur TMC2660
-
+- #### driver moteur TMC2660
 	plus performant que les 2130, moins cher que les 5160
+	
 	interface hard et soft identique
+	
 	MOSFET intégrés jsuqu'à 2.8A
+	
+	3 drivers moteur, permet d'integrer le focuser
 
-- 3 drivers moteur, permet d'integrer le focuser
-
-- entrées pour des encodeurs ABN
-
+- #### entrées pour des encodeurs ABN
 	le teensy 4 a  un module hardware de gestion des encodeurs, et des libraires fournissent des méthodes toutes prètes pour les utiliser
 	essai prévu avec des encodeurs magnétiques 1024 points à 4$, en mode push-to (pas de boucle fermée pour l'instant, juste suivre les mouvements manuels)
 
-- Connecteur USB-C
-
+- #### Connecteur USB-C
 	c'est moderne, c'est robuste et c'est devenu le standard, tout le monde commence à avoir un cable USB-C chez lui
 
-- module GPS intégré
-
+- #### module GPS intégré
 	prévu en test sur le prochain proto, un module chinois intégré sur la carte, pour ne plus se poser la question duquel acheter parmi les 300 réfs de aliexpress
 
-- gestion de la carte (encore en chantier)
-
+- #### gestion de la carte (encore en chantier)
 	gestion des alims PI, teenastro, reset ...
 
-- alim
-
+- #### alim
 	supporte jusqu'à 25V
 
 	pensé pour être relié à une batterie de visseuse (20V Li-Ion)
@@ -60,8 +56,7 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 
 ### Versions prévues (design en phase finale)
 
-- Version HAT
-
+- #### Version HAT
 	HAT : Hardware Attached on Top -> carte montée au dessus
 
 	format standardisé d'extension pour micro-controleur (avec chacun ses specs) : arduino, PI, ESP ...
@@ -76,8 +71,7 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 
 	PCB 4 couches, CMS double face
 	
-- Version Redux
-
+- #### Version Redux
 	reprend toutes les fonctions de la version standard actuelle, + les ajouts de la version HAT
 
 	connexion des moteurs sur bornier, encodeur + ST4 + T° focuser + polar sur header 2.54mm
@@ -86,8 +80,7 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 
 	PCB 4 couches, CMS double face
 
-- Version Mini
-
+- #### Version Mini
 	c'est la version "low cost" developpée pour mon projet principal (kit de modif d'un petit dobson de table, le 130 heritage de SW)
 
 	reprend les fonctions de la mini 2.4 :
