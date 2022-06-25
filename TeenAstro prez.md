@@ -1,5 +1,8 @@
 # TeenAstro v3
 
+[![GitHub release](https://img.shields.io/badge/Version-0.9-orange.svg)][release]
+
+
 ## 2 ans plus tard, on en est où ?
 5 versions fabriquées, plein de blocs logiques testés (driver moteur, alim ...), plusieurs form factors essayés, du plein format raspberry PI à la boite de tic-tac
 
@@ -58,6 +61,10 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 ### Versions prévues (design en phase finale)
 
 - #### Version HAT
+
+![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_HAT_top_small.png)
+![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_HAT_bot_small.png)
+
 	HAT : Hardware Attached on Top -> carte montée au dessus
 
 	format standardisé d'extension pour micro-controleur (avec chacun ses specs) : arduino, PI, ESP ...
@@ -77,6 +84,10 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 	PCB 4 couches, CMS double face
 	
 - #### Version Redux
+
+![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Redux_top_small.png)
+![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Redux_bot_small.png)
+
 	reprend toutes les fonctions de la version standard actuelle, + les ajouts de la version HAT (sans la liaison avec le pi)
 
 	connexion des moteurs sur bornier, encodeur + ST4 + T° focuser + polar sur header 2.54mm
@@ -86,6 +97,10 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 	PCB 4 couches, CMS double face
 
 - #### Version Mini
+
+![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Mini_top_small.png)
+![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Mini_bot_small.png)
+
 	c'est la version "low cost" developpée pour mon projet principal (kit de modif d'un petit dobson de table, le 130 heritage de SW)
 
 		- 2 moteurs
