@@ -73,7 +73,7 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 	PCB 4 couches, CMS double face
 	
 - #### Version Redux
-	reprend toutes les fonctions de la version standard actuelle, + les ajouts de la version HAT
+	reprend toutes les fonctions de la version standard actuelle, + les ajouts de la version HAT (sans la liaison avec le pi)
 
 	connexion des moteurs sur bornier, encodeur + ST4 + T° focuser + polar sur header 2.54mm
 	
@@ -85,11 +85,11 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 	c'est la version "low cost" developpée pour mon projet principal (kit de modif d'un petit dobson de table, le 130 heritage de SW)
 
 	reprend les fonctions de la mini 2.4 :
-		2 moteurs
-		GPS intégré
-		encodeurs
-		pas d'interface avec le PI
-		pas de ST4
+		- 2 moteurs
+		- GPS intégré
+		- encodeurs
+		- pas d'interface avec le PI
+		- pas de ST4
 
 	prévu pour un boitier alu extrudé de 60x80 (hammond)
 
