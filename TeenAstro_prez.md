@@ -122,8 +122,8 @@ PCB 4 couches, CMS simple face
 
 - #### version "traditionnelle"
 
+![Schéma](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/HAT/Schematic_TeenAstro_v3.0_trad.png)
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_planche_a_clous.png)
-[Schéma](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/HAT/Schematic_TeenAstro v3.0 - planche à clous_2022-06-26.png)
 
 ### Evolution du soft
 Dans un premier temps, il y a juste un remap des pins à faire dans le firmware pour récuperer les fonctions de base
