@@ -26,7 +26,7 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 
 	format M.2, le connecteur des cartes wifi de laptop
 
-	40 I/O utilisées, il en reste encore 6 ...
+	40 I/O utilisées, il en reste encore 6 (dont un UART libre) ...
 
 - #### driver moteur TMC2660
 	plus performant que les 2130, moins cher que les 5160
@@ -59,6 +59,9 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 	mesure de la conso du système, tension batterie ... en I2C relié au teensy
 
 ### Versions prévues (design en phase finale)
+
+
+[Schémas](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/HAT/Schematic_TeenAstro_v3.0.pdf)
 
 - #### Version HAT
 
