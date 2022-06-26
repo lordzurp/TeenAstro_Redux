@@ -25,7 +25,10 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 - #### Teensy 4 M.2
 	Nouvelle version dev par sparkfun (en collab avec PJRC)
 
-	40 I/O utilisées, il en reste encore 6 (dont un UART libre) ...
+	40 I/O utilisées, il en reste encore 6 (dont un UART libre)
+
+	le schéma est compatible avec le Teensy 4.1 (42 GPIO accessibles directement)
+	
 
 - #### driver moteur TMC2660
 	plus performant que les 2130, moins cher que les 5160
