@@ -1,6 +1,6 @@
 # TeenAstro v3
 
-[![GitHub release](https://img.shields.io/badge/Version-0.9-orange.svg)][release]
+![GitHub release](https://img.shields.io/badge/Version-0.9-orange.svg)
 
 
 ## 2 ans plus tard, on en est où ?
@@ -40,7 +40,7 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 - #### entrées pour des encodeurs ABN
 	le teensy 4 a  un **module hardware** de gestion des encodeurs, et des libraires fournissent des méthodes toutes prètes pour les utiliser
 
-	essai prévu avec des encodeurs magnétiques 1024 points à 4$, en mode push-to (pas de boucle fermée pour l'instant, juste suivre les mouvements manuels)
+	essai prévu avec des encodeurs magnétiques 1024 points à 4$, en mode push-to (pas de boucle fermée, juste suivre les mouvements manuels)
 
 - #### Connecteur USB-C
 	c'est moderne, c'est robuste et c'est devenu le standard, tout le monde commence à avoir un cable USB-C chez lui
@@ -48,8 +48,10 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 - #### module GPS intégré
 	prévu en test sur le prochain proto, un module chinois intégré sur la carte, pour ne plus se poser la question duquel acheter parmi les 300 réfs de aliexpress
 
-- #### gestion de la carte (encore en chantier)
-	gestion des alims PI, teenastro, reset ...
+- #### Fonctions liés au PI
+	- RTC
+	- config des GPIO du pi et ajout d'overlay perso (via l'EEPROM)
+	- gestion de l'alim du PI depuis le TeenAstro (ON et shutdown)
 
 - #### alim
 	supporte jusqu'à 25V
@@ -121,17 +123,21 @@ PCB 4 couches, CMS simple face
 ### Evolution du soft
 Dans un premier temps, il y a juste un remap des pins à faire dans le firmware pour récuperer les fonctions de base
 
-(j'ai une carte avec un pinout modifié et un teensy 4.0 qui tourne actuellement, juste avec une branche 290)
+(j'ai une carte avec un pinout modifié et un teensy 4.0 qui tourne actuellement, sur une branche 290 dans mon fork)
 
-les chantiers à prévoir et les options cool à rajouter pour exploiter pleinement les fonctionnalités de la v3.0 :
+les modifs à prévoir et les options cool à rajouter pour exploiter pleinement les fonctionnalités de la v3.0 :
 
 - intégration du code focuser dans le teensy principal
 - ajout de la gestion des encodeurs (lib existantes)
 - ajouter une option dans le menu pour désactiver les moteurs, pour permettre les mouvements manuels sur un dobson sans débrayage mécanique
 - gestion de la batterie : mesure tension, conso ... icone batterie (100/75/50/25%) (ya des libs toute pretes)
-- gestion de l'alim du pi : alummage / extinction soft
+- gestion de l'alim du pi : allumage / extinction soft (3 pins à controler)
 - gerer plusieurs profils de télescope directement depuis la raquette, à la manière des sites
 
+modifs à prévoir dans les drivers ASCOM / INDI
+
+- focuser
+- récuperer la tension batterie / conso
 
 ### prix de revient 
 
