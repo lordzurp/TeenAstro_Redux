@@ -61,7 +61,7 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 ### Versions prévues (design en phase finale)
 
 
-[Schémas](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/HAT/Schematic_TeenAstro_v3.0.pdf)
+[Schémas](https://github.com/lordzurp/TeenAstro_Redux/blob/master/HAT/Schematic_TeenAstro_v3.0.pdf)
 
 - #### Version HAT
 
