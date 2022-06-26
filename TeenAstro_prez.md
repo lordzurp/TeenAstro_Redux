@@ -26,7 +26,7 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 
 	format M.2, le connecteur des cartes wifi de laptop
 
-	40 I/O dispobile, autant que le TeensY 4.1, avec un format de 22x22mm
+	40 I/O utilisées, il en reste encore 6 ...
 
 - #### driver moteur TMC2660
 	plus performant que les 2130, moins cher que les 5160
@@ -118,18 +118,19 @@ Dans un premier temps, il y a juste un remap des pins à faire dans le firmware 
 
 (j'ai une carte avec un pinout modifié et un teensy 4.0 qui tourne actuellement, juste avec une branche 290)
 
-les chantiers à prévoir pour exploiter pleinement les ajouts :
+les chantiers à prévoir et les options cool à rajouter pour exploiter pleinement les fonctionnalités de la v3.0 :
 
 - intégration du code focuser dans le teensy principal
 - ajout de la gestion des encodeurs (lib existantes)
 - ajouter une option dans le menu pour désactiver les moteurs, pour permettre les mouvements manuels sur un dobson sans débrayage mécanique
 - gestion de la batterie : mesure tension, conso ... icone batterie (100/75/50/25%) (ya des libs toute pretes)
-- comm avec la carte, menu de gestion des alims (eteindre le pi)
+- gestion de l'alim du pi : alummage / extinction soft
+- gerer plusieurs profils de télescope directement depuis la raquette, à la manière des sites
 
 
 ### prix de revient 
 
-calcul préliminaire à la grosse, fabrication en chine, **ne prend pas en compte le surcout double-face** (pas encore actif chez JLCpcb, mais ils m'ont promis que ça arrive ibnetôt ...)
+calcul préliminaire à la grosse, fabrication en chine, **ne prend pas en compte le surcout double-face** (pas encore actif chez JLCpcb, mais ils m'ont promis que ça arrive binetôt ...)
 
 **par lot de 5**
 
