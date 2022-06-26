@@ -6,11 +6,12 @@
 ## 2 ans plus tard, on en est où ?
 7 versions fabriquées, plein de blocs logiques testés (driver moteur, alim ...), plusieurs form factors essayés, du plein format raspberry PI à la boite de tic-tac
 
-Rien n'était pleinement satisfaisant, trop grand, pas adapté pour rentrer dans un boitier, trop compliqué à assembler ...
+Rien n'était pleinement satisfaisant, trop grand, pas adapté pour rentrer dans un boitier, trop compliqué à assembler ... mais on s'approche d'un truc bien (les 2 dernières à droite)
 
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/Teenastro_prototypes.jpg)
 
-Puis est arrivé la Révolution : les **MicroMod Sparkfun**. 
+Puis est arrivé la Révolution : les [**MicroMod Sparkfun**](https://www.sparkfun.com/micromod).
+ ![teensy](https://cdn.sparkfun.com//assets/parts/1/5/1/3/2/16402-SparkFun_MicroMod_Teensy_Processor-04.jpg)
 un format standardisé de micro-controleurs dispo en plusieurs diversités (STM32, teensy, esp32 ...) avec un connecteur commun (M.2, le connecteur des cartes wi-fi de portables et des SSD)
 
 ça supprime la principale contrainte du teensy : les pins traversants qui empèche de faire une carte CMS propre
