@@ -125,6 +125,10 @@ PCB 4 couches, CMS simple face
 ![Schéma](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/HAT/Schematic_TeenAstro_v3.0_trad.png)
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_planche_a_clous.png)
 
+version quick n dirty, juste pour voir (pas verifié, pas peaufiné, à ne pas fabriquer !)
+
+il manque les encodeurs, car ils sont quasiment tous en 5V, hors le teensy n'accepte que 3V3 sur ses entrées. il faut trouver une puce pour adapter les tensions
+
 ### Evolution du soft
 Dans un premier temps, il y a juste un remap des pins à faire dans le firmware pour récuperer les fonctions de base
 
