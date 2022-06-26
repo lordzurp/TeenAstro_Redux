@@ -13,7 +13,7 @@ Rien n'était pleinement satisfaisant, trop grand, pas adapté pour rentrer dans
 Puis est arrivé la Révolution : les [**MicroMod Sparkfun**](https://www.sparkfun.com/micromod).
 
  ![teensy](https://cdn.sparkfun.com//assets/parts/1/5/1/3/2/16402-SparkFun_MicroMod_Teensy_Processor-04.jpg)
- 
+
 un format standardisé de micro-controleurs dispo en plusieurs diversités (STM32, teensy, esp32 ...) avec un connecteur commun (M.2, le connecteur des cartes wi-fi de portables et des SSD)
 
 ça supprime la principale contrainte du teensy : les pins traversants qui empèche de faire une carte CMS propre
@@ -111,7 +111,7 @@ PCB 4 couches, CMS double face
 - #### Version Mini
 
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Mini_top_small.png)
-[ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Mini_bot_small.png)
+![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Mini_bot_small.png)
 
 c'est la version "low cost" developpée pour mon projet principal (kit de modif d'un petit dobson de table, le 130 heritage de SW)
 
