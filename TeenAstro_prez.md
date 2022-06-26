@@ -9,12 +9,13 @@
 Rien n'était pleinement satisfaisant, trop grand, pas adapté pour rentrer dans un boitier, trop compliqué à assembler ...
 
 Puis est arrivé la Révolution : les **MicroMod Sparkfun**. 
-un format standardisé de micro-controleurs dispo en plusieurs diversités (STM32, teensy, esp32 ...) avec un connecteur commun
+un format standardisé de micro-controleurs dispo en plusieurs diversités (STM32, teensy, esp32 ...) avec un connecteur commun (M.2, le connecteur des cartes wi-fi de portables et des SSD)
 
 ça supprime la principale contrainte du teensy : les pins traversants qui empèche de faire une carte CMS propre
 
 nouveau design autour de ce nouveau teensy
-tous les autres blocs ont été testé et validé sur les différents proto (sauf le GPS intégré, mais il y a un failsafe apour un module standard)
+
+tous les autres blocs ont été testé et validé sur les différents proto (sauf le GPS intégré, mais il y a un failsafe apour un module standard si les perfs ne sont pas au rendez-vous)
 
 ### Points clés
 
@@ -24,16 +25,14 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 - #### Teensy 4 M.2
 	Nouvelle version dev par sparkfun (en collab avec PJRC)
 
-	format M.2, le connecteur des cartes wifi de laptop
-
 	40 I/O utilisées, il en reste encore 6 (dont un UART libre) ...
 
 - #### driver moteur TMC2660
 	plus performant que les 2130, moins cher que les 5160
 	
-	interface hard et soft identique (juste à changer le constructeur)
+	interface hard et soft identique (juste à mettre à jour le constructeur)
 	
-	MOSFET intégrés jsuqu'à 2.8A
+	MOSFET intégrés jsuqu'à 2.8A (protégé par des polyfuses 3A)
 
 	**3 drivers moteur**, permet d'integrer le focuser sans rajouter un 2e teensy
 
@@ -51,21 +50,19 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 - #### Fonctions liés au PI
 	- RTC
 	- config des GPIO du pi et ajout d'overlay perso (via l'EEPROM)
-	- gestion de l'alim du PI depuis le TeenAstro (ON et shutdown)
+	- gestion de l'alim du PI depuis le menu du TeenAstro (ON et shutdown)
 
 - #### alim
 	supporte jusqu'à 25V
 
 	pensé pour être relié à une batterie de visseuse (20V Li-Ion)
 
-	mesure de la conso du système, tension batterie ... en I2C relié au teensy
+	mesure de la conso du système, tension batterie ... en I2C relié au teensy (INA219)
 
 ### Versions prévues (design en phase finale)
 
 
-[Schémas](https://github.com/lordzurp/TeenAstro_Redux/blob/master/HAT/Schematic_TeenAstro_v3.0.pdf)
-
-[Schéma 1 page](https://github.com/lordzurp/TeenAstro_Redux/blob/master/HAT/Schematic_TeenAstro_v3.0_single_sheet.png)
+les [Schémas](https://github.com/lordzurp/TeenAstro_Redux/blob/master/HAT/Schematic_TeenAstro_v3.0.pdf) en PDF et le [schéma tout-sur-une-page](https://github.com/lordzurp/TeenAstro_Redux/blob/master/HAT/Schematic_TeenAstro_v3.0_single_sheet.png) en png
 
 - #### Version HAT
 
@@ -97,8 +94,8 @@ PCB 4 couches, CMS double face
 
 reprend toutes les fonctions de la version standard actuelle, + les ajouts de la version HAT (sans la liaison avec le pi)
 
-connexion des moteurs sur bornier, encodeur + ST4 + T° focuser + polar sur header 2.54mm
-	
+connexion des moteurs sur bornier, encodeur + ST4, T° focuser et polar sur header 2.54mm
+
 prévu pour un boitier alu extrudé de 60x80 (hammond) ou intégration directement dans la monture (impression 3D)
 
 PCB 4 couches, CMS double face
@@ -136,7 +133,7 @@ les modifs à prévoir et les options cool à rajouter pour exploiter pleinement
 
 modifs à prévoir dans les drivers ASCOM / INDI
 
-- focuser
+- focuser à integrer dans le panneau teenastro (jamais utilisé le focuser encore, je connais pas le driver)
 - récuperer la tension batterie / conso
 
 ### prix de revient 
