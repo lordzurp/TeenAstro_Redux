@@ -147,6 +147,7 @@ les modifs à prévoir et les options cool à rajouter pour exploiter pleinement
 - gestion de la batterie : mesure tension, conso ... icone batterie (100/75/50/25%) (ya des libs toute pretes)
 - gestion de l'alim du pi : allumage / extinction soft (3 pins à controler)
 - gerer plusieurs profils de télescope directement depuis la raquette, à la manière des sites
+- ajout d'un menu pour choisir le mode de connexion au PC : usb ou UART directe
 
 modifs à prévoir dans les drivers ASCOM / INDI
 
