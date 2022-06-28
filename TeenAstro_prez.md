@@ -156,7 +156,9 @@ modifs à prévoir dans les drivers ASCOM / INDI
 
 ### prix de revient 
 
-calcul préliminaire à la grosse, fabrication en chine, **ne prend pas en compte le surcout double-face** (pas encore actif chez JLCpcb, mais ils m'ont promis que ça arrive binetôt ...)
+calcul préliminaire à la grosse, fabrication en chine
+
+**edit** CMS double face activé ! surcout de 75€ par lot (cout fixe, que ça soit 2, 5 ou 25 cartes) à rajouter au prix dessous
 
 **par lot de 5**
 
