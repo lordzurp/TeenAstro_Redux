@@ -2,9 +2,9 @@
 
 ### Teensy
 
- ![teensy](https://cdn.sparkfun.com//assets/parts/1/5/1/3/2/16402-SparkFun_MicroMod_Teensy_Processor-04.jpg)
+ ![teensy](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/1/2/6/6/MM_Teensy_PB_Thumb.jpg)
 
-![teensy](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/schematics_teensy.png)
+![teensy](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_teensy.png)
 
 Format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
 
