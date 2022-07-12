@@ -47,7 +47,7 @@ Format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
 	* A 2
 	* B 30
 	* N 4
-* *Encodeur 2**
+* **Encodeur 2**
 	* A 33
 	* B 31
 	* N 3
