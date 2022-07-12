@@ -71,7 +71,7 @@ Format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
 
 ![gps](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_gps.png)
 
-* Module GPS + Beidou AM336
+* Module GPS + Beidou AM336 intégré, connecteur antenne UF.L
 
 * Module GPS NEO-6/7/8
 
@@ -79,7 +79,11 @@ Format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
 
 ![usb](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_usb.png)
 
-* Connexion data USB-C
+* Connecteur USB-C
+
+* Liaison PC
+
+* Alimentation Power Delivery (PD2)
 
 ## Raspberry PI 
 
@@ -104,7 +108,7 @@ Format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
 
 ## Power
 
-### Protection
+### Protection inversion
 
 ![power_in](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_power_in.png)
 
@@ -128,7 +132,13 @@ Format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
 
 * **LM1220** rechargeable, se recharge lorsque que le TeenAstro est branché, autonomie théorique 3 mois
 
-* **ne pas installer de pille CR1220 !!!** 
+* **ne pas installer de pille CR1220 !!!**
+
+### Protection PI
+
+![back_power](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_back_power.png)
+
+* Empeche d'envoyer l'alimentation vers le PI s'il est déjà alimenté
 
 ### Protection ESD
 
