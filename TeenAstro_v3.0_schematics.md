@@ -112,7 +112,7 @@ Format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
 ![battery](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_battery.png)
 
 
-* LM1220 rechargeable, se recharge lorsque que le TeenAstro est branché, autonomie théorique 3 mois
+* **LM1220** rechargeable, se recharge lorsque que le TeenAstro est branché, autonomie théorique 3 mois
 
 * **ne pas installer de pille CR1220 !!!** 
 
@@ -131,6 +131,11 @@ Format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
 ## Encodeurs
 
 ![encoders](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_encoders.png)
+
+* Gestion hardware par le Teensy 4
+	* Libraires :
+		* [Hardware Quadrature Library](https://github.com/mjs513/Teensy-4.x-Quad-Encoder-Library)
+		* [PJRC Library](https://www.pjrc.com/teensy/td_libs_Encoder.html)
 
 * Tension 5V (conversion 3V3 pour le teensy)
 
