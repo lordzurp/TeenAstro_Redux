@@ -96,6 +96,8 @@ Format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
 
 * Protection contre les inversions
 
+* Protection contre les surtensions
+
 * Fusible réarmable (polyfuse) 3A
 
 ### Step-down
@@ -108,5 +110,30 @@ Format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
 ### Batterie
 
 ![battery](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_battery.png)
+
+
+* LM1220 rechargeable, se recharge lorsque que le TeenAstro est branché, autonomie théorique 3 mois
+
+* **ne pas installer de pille CR1220 !!!** 
+
+### Protection ESD
+
+![esd](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_esd.png)
+
+* Ecrétage des surtensions sur jack et USB
+
+## Pilotes de moteur **TMC2660C**
+
+* MosFet intégré
+
+* Imax 2.8A
+
+## Encodeurs
+
+![encoders](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_encoders.png)
+
+* Tension 5V (conversion 3V3 pour le teensy)
+
+* header à broches 2x5 points
 
 
