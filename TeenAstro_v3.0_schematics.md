@@ -124,6 +124,8 @@ Format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
 
 ## Pilotes de moteur **TMC2660C**
 
+![motor](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_motor.png)
+
 * MosFet intégré
 
 * Imax 2.8A
