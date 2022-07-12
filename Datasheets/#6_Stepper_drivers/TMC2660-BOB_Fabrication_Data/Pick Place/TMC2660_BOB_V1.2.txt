@@ -1,0 +1,39 @@
+Altium Designer Pick and Place Locations
+C:\Users\Urmo\Desktop\SYSTEEM\MEGA\PCB_PROJECTS\Trinamic\4BreakoutBoards\TMC2660\V1.2\Outputs\FABRICATION\Pick Place\TMC2660_BOB_V1.2.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       18.07.17
+Time:       21:03
+Revision:   Not in VersionControl
+Variant:    TMC2660_BOB_V1.1
+Units used: mil
+
+Designator Comment                            Layer    Footprint                      Center-X(mil) Center-Y(mil) Rotation Description                                                                                          
+C7         100nF/50V/20%                      TopLayer C0603                          1040.003      -8.998        270      Ceramic capacitor                                                                                    
+C10        10uF/35V/10%                       TopLayer C1206                          1120.000      -36.000       270      Ceramic capacitor                                                                                    
+C8         10uF/35V/10%                       TopLayer C1206                          1032.997      415.284       270      Ceramic capacitor                                                                                    
+R2         10R / 1%                           TopLayer R0603                          450.999       -205.000      90       SMD Chip Resistor, Thick Film, 10 ohm, 50 V, 0603 [1608 Metric], 100 mW, ± 1%, MCWR Series           
+C1         470nF/16V/10%                      TopLayer C0603                          360.000       185.000       180      Ceramic capacitor                                                                                    
+C2         100nF/50V/20%                      TopLayer C0603                          1006.756      -145.906      270      Ceramic capacitor                                                                                    
+C3         100nF/50V/20%                      TopLayer C0603                          1103.214      81.496        180      Ceramic capacitor                                                                                    
+C5         10nF/50V/10%                       TopLayer C0603                          393.003       305.000       270      Ceramic capacitor                                                                                    
+C6         10nF/50V/10%                       TopLayer C0603                          393.003       -204.996      90       Ceramic capacitor                                                                                    
+C9         10uF/35V/10%                       TopLayer C1206                          1090.928      269.313       180      Ceramic capacitor                                                                                    
+C11        10uF/35V/10%                       TopLayer C1206                          1115.938      -235.687      90       Ceramic capacitor                                                                                    
+IC1        TMC2660                            TopLayer TMC26x_PQFP44_0.8_10X10_TMC236 700.000       50.000        180      coolStep™ driver with Step/Dir Interface and SPI, up to 30V,  internal MOSFET for up to 4 A, PQFP-44 
+P1         SPI                                TopLayer 4_PIN_THT                      0.000         150.000       0        Header, 4-Pin                                                                                        
+P2         STEP/DIR                           TopLayer 2_PIN_THT                      1400.000      -250.000      180      Header, 2-Pin                                                                                        
+P3         MISC                               TopLayer 4_PIN_THT                      0.000         -250.000      0        Header, 4-Pin                                                                                        
+P4         GND                                TopLayer TH_PIN                         1400.000      -400.000      0                                                                                                             
+P5         GND                                TopLayer TH_PIN                         1400.000      -100.000      0                                                                                                             
+P6         OA                                 TopLayer 2_PIN_THT_1MM_HOLE             1400.000      250.000       0        Header, 2-Pin                                                                                        
+P7         OB                                 TopLayer 2_PIN_THT_1MM_HOLE             1400.000      50.000        360      Header, 2-Pin                                                                                        
+P8         VCC_IO                             TopLayer 2_PIN_THT                      0.000         450.000       0        Header, 2-Pin                                                                                        
+P9         VM                                 TopLayer 2_PIN_THT                      1400.000      450.000       0        Header, 2-Pin                                                                                        
+R1         10R / 1%                           TopLayer R0603                          450.999       305.000       270      SMD Chip Resistor, Thick Film, 10 ohm, 50 V, 0603 [1608 Metric], 100 mW, ± 1%, MCWR Series           
+R3         100mR / 1W / 1%                    TopLayer R1206                          440.000       453.855       360      SMD Current Sense Resistor, 0.1 ohm, 1 W, 1206 [3216 Metric], ± 1%, ERJ8B Series                     
+R4         100mR / 1W / 1%                    TopLayer R1206                          440.000       -350.000      360      SMD Current Sense Resistor, 0.1 ohm, 1 W, 1206 [3216 Metric], ± 1%, ERJ8B Series                     
+D1         LED, Blue, SMD, 20mA, 2.8V, 465 nm TopLayer LED_0603                       225.597       383.000       90       LED, Blue, SMD, 20mA, 2.8V, 465 nm                                                                   
+R5         1k                                 TopLayer R0603                          225.597       250.686       90       1 kohm, 50 V, 0603 [1608 Metric], 63 mW, ± 1%, MC Series                                             
