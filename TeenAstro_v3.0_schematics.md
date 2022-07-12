@@ -18,20 +18,21 @@ Format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
 	* SDO 11
 	* SDI 12
 	* SCK 13
-* Serial : USB 
-* Serial1 : Debug (libre, pastilles sous le PCB)
-	* TX 1
-	* RX 0
-* Serial2 : N/C
-* Serial3 : GPS
-	* TX 14
-	* RX 15
-* Serial4 : Connexion Raspberry PI
-	* TX 17
-	* RX 16
-* Serial5 : téléco
-	* TX 21
-	* RX 20
+* UART
+	* Serial : USB 
+	* Serial1 : Debug (libre, pastilles sous le PCB)
+		* TX 1
+		* RX 0
+	* Serial2 : N/C
+	* Serial3 : GPS
+		* TX 14
+		* RX 15
+	* Serial4 : Connexion Raspberry PI
+		* TX 17
+		* RX 16
+	* Serial5 : téléco
+		* TX 21
+		* RX 20
 * Moteur 1 (RA/AZ)
 	* DIR 35
 	* STEP 34
