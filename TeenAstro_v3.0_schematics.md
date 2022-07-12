@@ -51,17 +51,16 @@ Format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
 	* A 33
 	* B 31
 	* N 3
-
-
-* Led 27
-* PI Shutdown 28
-* I2C (non cablé)
+* **I2C** (non cablé)
 	* SDA 18
 	* SCL 19
-* Sonde Temp (non cablé) 29
-* GPS PPS 5
-* Reticule X1 (non cablé) 40
-* Port ST4 (pull-up, non cablé)
+* **I/O**
+	* Led 27
+	* PI Shutdown 28
+	* Sonde Temp (non cablé) 29
+	* GPS PPS 5
+	* Reticule X1 (non cablé) 40
+* **Port ST4** (pull-up, non cablé)
 	* RA+ 24
 	* RA- 10
 	* DEC+ 22
