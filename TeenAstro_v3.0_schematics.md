@@ -1,4 +1,6 @@
-# Revue électronique détaillée
+# TeenAstro v3.0
+
+## Revue électronique détaillée
 
 ### Teensy
 
