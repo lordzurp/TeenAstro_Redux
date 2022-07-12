@@ -67,6 +67,20 @@ Format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
 	* DEC+ 22
 	* DEC- 25
 
+## GNSS
+
+![gps](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_gps.png)
+
+* Module GPS + Beidou AM336
+
+* Module GPS NEO-6/7/8
+
+## Port USB
+
+![usb](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_usb.png)
+
+* Connexion data USB-C
+
 ## Raspberry PI 
 
 ![pi](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_pi.png)
@@ -129,6 +143,13 @@ Format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
 * MosFet intégré
 
 * Imax 2.8A
+
+* Sense resistance 0,075R
+
+* Connecteurs moteur
+	* Rapide 
+	* Vis 
+	* DB9 (version mini)
 
 ## Encodeurs
 
