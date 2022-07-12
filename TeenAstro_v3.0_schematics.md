@@ -104,3 +104,9 @@ Format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
 
 * Umax 25V
 * Imax 3A
+
+### Batterie
+
+![battery](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_battery.png)
+
+
