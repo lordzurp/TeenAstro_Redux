@@ -14,11 +14,11 @@ Format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
 
 (les numéros correspondent aux **alias Arduino**, pas aux broches du connecteur)
 
-* SPI : 
+* **SPI** : 
 	* SDO 11
 	* SDI 12
 	* SCK 13
-* UART
+* **UART**
 	* Serial : USB 
 	* Serial1 : Debug (libre, pastilles sous le PCB)
 		* TX 1
@@ -33,21 +33,21 @@ Format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
 	* Serial5 : téléco
 		* TX 21
 		* RX 20
-* Moteur 1 (RA/AZ)
+* **Moteur 1** (RA/AZ)
 	* DIR 35
 	* STEP 34
 	* ENA 38
 	* CS 39
-* Moteur 2 (DEC/ALT)
+* **Moteur 2** (DEC/ALT)
 	* DIR 8
 	* STEP 7
 	* ENA 36
 	* CS 23
-* Encodeur 1
+* **Encodeur 1**
 	* A 2
 	* B 30
 	* N 4
-* Encodeur 2
+* *Encodeur 2**
 	* A 33
 	* B 31
 	* N 3
