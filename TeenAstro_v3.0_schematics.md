@@ -4,9 +4,18 @@
 
 ### Teensy
 
+On passe du Teensy 3.2 au Teensy 4.1, au format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
+
+* de la patate à revendre, chip à 600MHz
+
+* + d'UART, + de GPIO, module encodeur hardware (toutes les pins du 4.1 sont dispo)
+
+* pas de pin à souder, s'installe comme un module WiFi d'ordi portable
+
+* prix : autour de 26-28€ ttc (encore dispo chez digikey !)
+
  ![teensy](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/1/2/6/6/MM_Teensy_PB_Thumb.jpg)
 
-Format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
 
 ![teensy](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_teensy.png)
 
@@ -70,9 +79,9 @@ Format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
 
 ![gps](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_gps.png)
 
-* Module GPS + Beidou AM336 intégré, connecteur antenne UF.L
+* pour test : module GPS + Beidou AM336 intégré, connecteur antenne UF.L
 
-* Module GPS NEO-6/7/8
+* secours : Module GPS NEO-6/7/8 classique ( 4 pins)
 
 ## Port USB
 
@@ -82,24 +91,43 @@ Format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
 
 * Liaison PC
 
-* Alimentation Power Delivery (PD2)
+Après avoir beaucoup cresué la question de l'alim via USB-C (Power Delivery), c'est une fausse bonne idée :
+
+* necessité d'avoir un µC qui gère la négo entre l'alim et la carte (code en + au boot du Teensy + gestion des interrupt)
+
+* risque de blocage si l'alim ne peut pas valider le profil demandé
+
+* matos encore très anarchique : les seuls alims "correctes" sont celles de laptop, les chargeurs de télephone ne proposent pas (encore) de profil d'alim suffisant -> 3 users sur 4 aura la mauvaise alim, et ça va pas marcher ...
+
+-> le bon vieux jack 2.1mm reste le plus simple et efficace
 
 ## Raspberry PI 
 
+#### version Mini HAT
+
+* Connexion directe à un PI via le GPIO
+
+* gestion du profil des ports GPIO via une EEPROM sur la carte (norme HAT)
+
+* libère un port USB sur le PI
+
+
+### GPIO
+
 ![pi](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_pi.png)
 
-### Config Pinout
+#### Config Pinout
 
 * Serial
 	* TX GPIO14
 	* RX GPIO15
 * Shutdown Signal GPIO26
 
-## EEPROM
+### EEPROM
 
 ![eeprom](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_eeprom.png)
 
-### Overlay et DTparam
+#### Overlay et DTparam
 
 * Led red : heartbeat
 
@@ -136,6 +164,8 @@ Format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
 ### Protection PI
 
 ![back_power](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_back_power.png)
+
+* utilisation d'un CI spécialisé pour proteger au max le PI (limite de courant)
 
 * Empeche d'envoyer l'alimentation vers le PI s'il est déjà alimenté
 
