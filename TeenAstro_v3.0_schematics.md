@@ -1,14 +1,12 @@
-# TeenAstro v3.0
+# TeenAstro mini v3.0 - Revue électronique détaillée
 
-## Revue électronique détaillée
+## Teensy
 
-### Teensy
-
-On passe du Teensy 3.2 au Teensy 4.1, au format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
+On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
 
 * de la patate à revendre, chip à 600MHz
 
-* + d'UART, + de GPIO, module encodeur hardware (toutes les pins du 4.1 sont dispo)
+* 5 UART, + de GPIO, module encodeur hardware (toutes les pins du 4.1 sont dispo)
 
 * pas de pin à souder, s'installe comme un module WiFi d'ordi portable
 
@@ -99,11 +97,9 @@ Après avoir beaucoup cresué la question de l'alim via USB-C (Power Delivery), 
 
 * matos encore très anarchique : les seuls alims "correctes" sont celles de laptop, les chargeurs de télephone ne proposent pas (encore) de profil d'alim suffisant -> 3 users sur 4 aura la mauvaise alim, et ça va pas marcher ...
 
--> le bon vieux jack 2.1mm reste le plus simple et efficace
+-> le bon vieux **jack 2.1mm** reste le plus simple et efficace
 
-## Raspberry PI 
-
-#### version Mini HAT
+## Raspberry PI (version Mini HAT)
 
 * Connexion directe à un PI via le GPIO
 
@@ -133,6 +129,14 @@ Après avoir beaucoup cresué la question de l'alim via USB-C (Power Delivery), 
 
 * Led green : CPU activity
 
+### Protection PI
+
+![back_power](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_back_power.png)
+
+* utilisation d'un CI spécialisé pour proteger au max le PI (limite de courant)
+
+* Empeche d'envoyer l'alimentation vers le PI s'il est déjà alimenté
+
 ## Power
 
 ### Protection inversion
@@ -156,18 +160,9 @@ Après avoir beaucoup cresué la question de l'alim via USB-C (Power Delivery), 
 
 ![battery](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_battery.png)
 
-
 * **LM1220** rechargeable, se recharge lorsque que le TeenAstro est branché, autonomie théorique 3 mois
 
 * **ne pas installer de pille CR1220 !!!**
-
-### Protection PI
-
-![back_power](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_back_power.png)
-
-* utilisation d'un CI spécialisé pour proteger au max le PI (limite de courant)
-
-* Empeche d'envoyer l'alimentation vers le PI s'il est déjà alimenté
 
 ### Protection ESD
 
