@@ -87,13 +87,15 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 
 * Connecteur USB-C
 
-* Liaison PC
+* Liaison PC et programmation / flash firmware
 
-Après avoir beaucoup cresué la question de l'alim via USB-C (Power Delivery), c'est une fausse bonne idée :
+Après avoir beaucoup cresué la question de l'**alim via USB-C** (Power Delivery), c'est (pour moi) une fausse bonne idée :
 
 * necessité d'avoir un µC qui gère la négo entre l'alim et la carte (code en + au boot du Teensy + gestion des interrupt)
 
 * risque de blocage si l'alim ne peut pas valider le profil demandé
+
+* alimenter la monture via le port USB-C d'un laptop peut paraitre cool, mais ça va sucer la batterie très vite, et en cas de --gros-- problème ça flingue tout
 
 * matos encore très anarchique : les seuls alims "correctes" sont celles de laptop, les chargeurs de télephone ne proposent pas (encore) de profil d'alim suffisant -> 3 users sur 4 aura la mauvaise alim, et ça va pas marcher ...
 
