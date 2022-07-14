@@ -51,12 +51,19 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 
 - #### module GPS intégré
 	prévu en test sur le prochain proto, un module chinois intégré sur la carte, pour ne plus se poser la question duquel acheter parmi les 300 réfs de aliexpress
+
 	en plan B, header pour un neo-6/7/8 classique
 
 - #### alim
 	supporte jusqu'à 25V
 
 	pensé pour être relié à une batterie de visseuse (20V Li-Ion)
+
+- #### port ST4
+	dispo uniquement sur la Mini Classic
+
+	les résistances de pull-up sont toujours présentes sur les 2 autres cartes, pour la compatibilité du firmware
+
 
 ### Versions prévues (design en phase finale)
 
@@ -89,12 +96,6 @@ compatible avec la plupart des boitiers PI (qui exposent les GPIO, bien sur)
 
 La version mini de la Mini
 
-	- 2 moteurs
-	- GPS intégré
-	- encodeurs
-	- pas d'interface avec le PI
-	- pas de ST4
-
 prévu pour un boitier alu extrudé de 60x80 (hammond) ou intégration directement dans la monture (impression 3D)
 
 - #### version Mini Classic
@@ -109,24 +110,13 @@ prévu pour un boitier alu extrudé de 60x80 (hammond) ou intégration directeme
 * pour une upgrade à moindre frais vers le teensy 4 + encodeurs
 
 ### Evolution du soft
-Dans un premier temps, il y a juste un remap des pins à faire dans le firmware pour récuperer les fonctions de base
 
-(j'ai une carte avec un pinout modifié et un teensy 4.0 qui tourne actuellement, sur une branche 290 dans mon fork)
-
-les modifs à prévoir et les options cool à rajouter pour exploiter pleinement les fonctionnalités de la v3.0 :
-
-- intégration du code focuser dans le teensy principal
+- modif du pinout
+- gestion des TMC2660 à peaufiner
 - ajout de la gestion des encodeurs (lib existantes)
-- ajouter une option dans le menu pour désactiver les moteurs, pour permettre les mouvements manuels sur un dobson sans débrayage mécanique
-- gestion de la batterie : mesure tension, conso ... icone batterie (100/75/50/25%) (ya des libs toute pretes)
-- gestion de l'alim du pi : allumage / extinction soft (3 pins à controler)
+- ajouter une option dans le menu pour désactiver les moteurs, pour permettre les mouvements manuels sur un dobson sans débrayage mécanique (push-to avec les encodeurs)
 - gerer plusieurs profils de télescope directement depuis la raquette, à la manière des sites
-- ajout d'un menu pour choisir le mode de connexion au PC : usb ou UART directe
-
-modifs à prévoir dans les drivers ASCOM / INDI
-
-- focuser à integrer dans le panneau teenastro (jamais utilisé le focuser encore, je connais pas le driver)
-- récuperer la tension batterie / conso
+- ajout d'une option pour choisir le mode de connexion au PC : usb ou UART directe
 
 ### prix de revient 
 
