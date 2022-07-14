@@ -105,6 +105,8 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 
 ## Raspberry PI (version Mini HAT)
 
+![pi](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_pi.png)
+
 * Connexion directe à un PI via le GPIO
 
 * alimentation du PI via TeenAstro
@@ -113,11 +115,6 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 
 * libère un port USB sur le PI
 
-
-### GPIO
-
-![pi](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_pi.png)
-
 #### Config Pinout
 
 * Serial
@@ -125,11 +122,7 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 	* RX GPIO15
 * Shutdown Signal GPIO26
 
-### EEPROM
-
-![eeprom](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_eeprom.png)
-
-#### Overlay et DTparam
+### EEPROM Overlay et DTparam
 
 * Led red : heartbeat
 
