@@ -111,7 +111,7 @@ compatible avec la plupart des boitiers PI (qui exposent les GPIO, bien sur)
 
 La version mini de la Mini
 
-prévu pour un boitier alu extrudé de 60x80 (hammond) ou intégration directement dans la monture (impression 3D)
+prévu pour un boitier alu extrudé (Farnell)[https://fr.farnell.com/multicomp/mc002185/coffret-usage-multiple-alum-noir/dp/2830518] ou intégration directement dans la monture (impression 3D)
 
 - #### version Mini Classic
 
