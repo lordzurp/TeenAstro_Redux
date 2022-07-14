@@ -73,11 +73,19 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 	* DEC+ 22
 	* DEC- 25
 
+## SHC
+
+![gps](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_SHC.png)
+
+* Connexion Jack 4 points
+
+* Reservé pour plus tard : module **nRF24**
+
 ## GNSS
 
 ![gps](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_gps.png)
 
-* pour test : module GPS + Beidou AM336 intégré, connecteur antenne UF.L
+* pour test : module GPS + Beidou [ATGM336]((https://github.com/lordzurp/TeenAstro_Redux/raw/master/Datasheets\#3_Peripheriques\ATGM336H-5N31.pdf) intégré, connecteur antenne UF.L
 
 * secours : Module GPS NEO-6/7/8 classique ( 4 pins)
 
