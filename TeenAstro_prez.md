@@ -107,8 +107,7 @@ compatible avec la plupart des boitiers PI (qui exposent les GPIO, bien sur)
 
 - #### Version Mini Redux
 
-![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Mini_top_small.png)
-![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Mini_bot_small.png)
+![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Mini-Redux_small.png)
 
 La version mini de la Mini
 
