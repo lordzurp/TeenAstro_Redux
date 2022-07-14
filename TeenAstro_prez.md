@@ -89,7 +89,7 @@ les [Schémas](https://github.com/lordzurp/TeenAstro_Redux/blob/master/HAT/Schem
 
 - #### Version Mini-HAT
 
-![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Mini-HAT.thumb.png)
+![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Mini-HAT.thumb2.png)
 
 HAT : Hardware Attached on Top -> carte montée au dessus
 
