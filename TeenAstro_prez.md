@@ -130,14 +130,17 @@ modifs à prévoir dans les drivers ASCOM / INDI
 
 ### prix de revient 
 
+Avec les 2 drivers moteurs, le GPS et tous les composants CMS assemblés
+
 * par lot de 5 : **50€**
 
 * par lot de 25 : **35€**
 
-#### Composants à rajouter (toutes versions)
+#### Composants à rajouter
 
 	- connecteurs moteur (bornier à vis)
 	- headers
 	- Teensy M.2 (25-30€)
 	- téléco
 	- pile rechargeable LM1220
+	- header 40pts (HAT)
