@@ -64,6 +64,22 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 
 	les résistances de pull-up sont toujours présentes sur les 2 autres cartes, pour la compatibilité du firmware
 
+### Fonctions abandonnées
+
+* Après avoir beaucoup cresué la question de l'**alim via USB-C** (Power Delivery), c'est (pour moi) une fausse bonne idée :
+
+	* necessité d'avoir un µC qui gère la négo entre l'alim et la carte (code en + au boot du Teensy + gestion des interrupt)
+
+	* risque de blocage si l'alim ne peut pas valider le profil demandé
+
+	* alimenter la monture via le port USB-C d'un laptop peut paraitre cool, mais ça va sucer la batterie très vite, et en cas de gros problème ça flingue tout
+
+	* matos encore très anarchique : les seuls alims "correctes" sont celles de laptop, les chargeurs de télephone ne proposent pas (encore) de profil d'alim suffisant -> 3 users sur 4 aura la mauvaise alim, et ça va pas marcher ...
+
+* 3e moteur : techniquement, ça rentre, mais enormément de code à modifier pour integrer le focuser dans le module principal.
+
+-> le bon vieux **jack 2.1mm** reste le plus simple et efficace
+
 
 ### Versions prévues (design en phase finale)
 

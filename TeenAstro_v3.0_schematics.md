@@ -27,17 +27,17 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 	* SCK 13
 * **UART**
 	* Serial : USB 
-	* Serial1 : Debug (libre, pastilles sous le PCB)
+	* Serial1 : **Debug** (libre, pastilles sous le PCB)
 		* TX 1
 		* RX 0
 	* Serial2 : N/C
-	* Serial3 : GPS
+	* Serial3 : **GPS**
 		* TX 14
 		* RX 15
-	* Serial4 : Connexion Raspberry PI
+	* Serial4 : **Raspberry PI**
 		* TX 17
 		* RX 16
-	* Serial5 : téléco
+	* Serial5 : **SHC**
 		* TX 21
 		* RX 20
 * **Moteur 1** (RA/AZ)
@@ -61,6 +61,10 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 * **I2C** (non cablé)
 	* SDA 18
 	* SCL 19
+* **SHC_HF** (nRF24, non cablé)
+	* CSN 32
+	* IRQ 9
+	* CE 26
 * **I/O**
 	* Led 27
 	* PI Shutdown 28
@@ -85,7 +89,7 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 
 ![gps](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_gps.png)
 
-* pour test : module GPS + Beidou [ATGM336]((https://github.com/lordzurp/TeenAstro_Redux/raw/master/Datasheets\#3_Peripheriques\ATGM336H-5N31.pdf) intégré, connecteur antenne UF.L
+* pour test : module GPS + Beidou [ATGM336]((https://github.com/lordzurp/TeenAstro_Redux/raw/master/Datasheets/%233_Peripheriques/ATGM336H-5N31.pdf) intégré, connecteur antenne UF.L
 
 * secours : Module GPS NEO-6/7/8 classique ( 4 pins)
 
