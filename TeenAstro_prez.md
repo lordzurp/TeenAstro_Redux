@@ -76,9 +76,10 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 
 	* matos encore très anarchique : les seuls alims "correctes" sont celles de laptop, les chargeurs de télephone ne proposent pas (encore) de profil d'alim suffisant -> 3 users sur 4 aura la mauvaise alim, et ça va pas marcher ...
 
+	-> le bon vieux **jack 2.1mm** reste le plus simple et efficace
+
 * 3e moteur : techniquement, ça rentre, mais enormément de code à modifier pour integrer le focuser dans le module principal.
 
--> le bon vieux **jack 2.1mm** reste le plus simple et efficace
 
 
 ### Versions prévues (design en phase finale)
