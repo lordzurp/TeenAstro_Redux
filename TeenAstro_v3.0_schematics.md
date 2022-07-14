@@ -137,12 +137,21 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 * Protection contre les surtensions
 * Fusible réarmable (polyfuse) 3A
 
-### Step-down
+### Step-down 5V
 
 ![step_down](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_step_down.png)
 
 
 * [TPS54331](https://github.com/lordzurp/TeenAstro_Redux/blob/master/Datasheets/%231_power/tps54331.pdf)
+* Umax 25V
+* Imax 3A
+
+### LDO 3V3
+
+![step_down](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_LDO.png)
+
+
+* [AMS1117-3-3](https://github.com/lordzurp/TeenAstro_Redux/blob/master/Datasheets/%231_power/AMS1117-3-3.pdf)
 * Umax 25V
 * Imax 3A
 
