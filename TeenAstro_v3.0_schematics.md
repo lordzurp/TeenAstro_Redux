@@ -5,11 +5,8 @@
 On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](https://www.sparkfun.com/products/16402)
 
 * de la patate à revendre, chip à 600MHz
-
 * 5 UART, + de GPIO, module encodeur hardware (toutes les pins du 4.1 sont dispo)
-
 * pas de pin à souder, s'installe comme un module WiFi d'ordi portable
-
 * prix : autour de 26-28€ ttc (encore dispo chez digikey !)
 
  ![teensy](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/1/2/6/6/MM_Teensy_PB_Thumb.jpg)
@@ -82,7 +79,6 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 ![gps](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_SHC.png)
 
 * Connexion Jack 4 points
-
 * Reservé pour plus tard : module **nRF24** en SPI
 
 ## GNSS
@@ -90,7 +86,6 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 ![gps](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_gps.png)
 
 * pour test : module GPS + Beidou [ATGM336]((https://github.com/lordzurp/TeenAstro_Redux/raw/master/Datasheets/%233_Peripheriques/ATGM336H-5N31.pdf) intégré, connecteur antenne UF.L
-
 * secours : Module GPS NEO-6/7/8 classique ( 4 pins)
 
 ## Port USB
@@ -98,7 +93,6 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 ![usb](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_usb.png)
 
 * Connecteur USB-C
-
 * Liaison PC et programmation / flash firmware
 
 
@@ -106,11 +100,8 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 ## Raspberry PI (version Mini HAT)
 
 * Connexion directe à un PI via le GPIO
-
 * alimentation du PI via TeenAstro
-
 * gestion du profil des ports GPIO via une EEPROM sur la carte (norme HAT)
-
 * libère un port USB sur le PI
 
 ### GPIO
@@ -127,7 +118,6 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 #### EEPROM Overlay et DTparam
 
 * Led red : heartbeat
-
 * Led green : CPU activity
 
 ### Protection PI
