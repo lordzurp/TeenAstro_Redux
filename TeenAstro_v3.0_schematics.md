@@ -115,7 +115,7 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 
 ### GPIO
 
-![pi](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_pi.png)
+![pi](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_pi_gpio.png)
 
 #### Config Pinout
 
