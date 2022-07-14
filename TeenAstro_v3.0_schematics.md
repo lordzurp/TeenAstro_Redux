@@ -144,7 +144,7 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 
 ![power_in](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_power_in.png)
 
-* [TPS54331](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Datasheets/#1_power/tps54331.pdf)
+* [TPS54331](https://github.com/lordzurp/TeenAstro_Redux/blob/master/Datasheets/%231_power/tps54331.pdf)
 
 * Protection contre les inversions
 
