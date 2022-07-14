@@ -95,7 +95,7 @@ Après avoir beaucoup cresué la question de l'**alim via USB-C** (Power Deliver
 
 * risque de blocage si l'alim ne peut pas valider le profil demandé
 
-* alimenter la monture via le port USB-C d'un laptop peut paraitre cool, mais ça va sucer la batterie très vite, et en cas de --gros-- problème ça flingue tout
+* alimenter la monture via le port USB-C d'un laptop peut paraitre cool, mais ça va sucer la batterie très vite, et en cas de gros problème ça flingue tout
 
 * matos encore très anarchique : les seuls alims "correctes" sont celles de laptop, les chargeurs de télephone ne proposent pas (encore) de profil d'alim suffisant -> 3 users sur 4 aura la mauvaise alim, et ça va pas marcher ...
 
@@ -104,6 +104,8 @@ Après avoir beaucoup cresué la question de l'**alim via USB-C** (Power Deliver
 ## Raspberry PI (version Mini HAT)
 
 * Connexion directe à un PI via le GPIO
+
+* alimentation du PI via TeenAstro
 
 * gestion du profil des ports GPIO via une EEPROM sur la carte (norme HAT)
 

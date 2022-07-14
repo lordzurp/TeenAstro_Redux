@@ -30,11 +30,10 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 - #### Teensy 4 M.2
 	Nouvelle version dev par sparkfun (en collab avec PJRC)
 
-	40 I/O utilisées, il en reste encore 6 (dont un UART libre)
+	46 I/O, 5 UART ...
 
 	le schéma est compatible avec le Teensy 4.1 (42 GPIO accessibles directement)
 	
-
 - #### driver moteur TMC2660
 	plus performant que les 2130, moins cher que les 5160
 	
@@ -42,37 +41,29 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 	
 	MOSFET intégrés jsuqu'à 2.8A (protégé par des polyfuses 3A)
 
-	**3 drivers moteur**, permet d'integrer le focuser sans rajouter un 2e teensy
-
 - #### entrées pour des encodeurs ABN
 	le teensy 4 a  un **module hardware** de gestion des encodeurs, et des libraires fournissent des méthodes toutes prètes pour les utiliser
-
-	essai prévu avec des encodeurs magnétiques 1024 points à 4$, en mode push-to (pas de boucle fermée, juste suivre les mouvements manuels)
 
 - #### Connecteur USB-C
 	c'est moderne, c'est robuste et c'est devenu le standard, tout le monde commence à avoir un cable USB-C chez lui
 
+	uniquement utilisé pour la connexion au PC, ne gère pas l'alim (Power Delivery)
+
 - #### module GPS intégré
 	prévu en test sur le prochain proto, un module chinois intégré sur la carte, pour ne plus se poser la question duquel acheter parmi les 300 réfs de aliexpress
-
-- #### Fonctions liés au PI
-	- RTC
-	- config des GPIO du pi et ajout d'overlay perso (via l'EEPROM)
-	- gestion de l'alim du PI depuis le menu du TeenAstro (ON et shutdown)
+	en plan B, header pour un neo-6/7/8 classique
 
 - #### alim
 	supporte jusqu'à 25V
 
 	pensé pour être relié à une batterie de visseuse (20V Li-Ion)
 
-	mesure de la conso du système, tension batterie ... en I2C relié au teensy (INA219)
-
 ### Versions prévues (design en phase finale)
 
 
 les [Schémas](https://github.com/lordzurp/TeenAstro_Redux/blob/master/HAT/Schematic_TeenAstro_v3.0.pdf) en PDF et le [schéma tout-sur-une-page](https://github.com/lordzurp/TeenAstro_Redux/blob/master/HAT/Schematic_TeenAstro_v3.0_single_sheet.png) en png
 
-- #### Version HAT
+- #### Version Mini-HAT
 
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_HAT_top_small.png)
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_HAT_bot_small.png)
@@ -83,37 +74,23 @@ format standardisé d'extension pour micro-controleur (avec chacun ses specs) : 
 
 respecte les specs de la fondation PI pour les HAT
 
-	- EEPROM d'auto-config du PI
+	- EEPROM d'auto-config du PI (GPIO et overlays)
 	- protection de l'alimentation (évite les conflits si le PI est déjà alimenté)
 	- format de la carte standard à tous les HAT
 
 principal intéret : communication directe entre le teenastro et le pi via les pins GPIO (UART_1), libère un USB sur le pi
 
-reprend tous les ajouts cités plus haut
-
 compatible avec la plupart des boitiers PI (qui exposent les GPIO, bien sur)
 
-PCB 4 couches, CMS double face
-	
-- #### Version Redux
+- #### Version Mini Redux
 
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Redux_top_small.png)
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Redux_bot_small.png)
 
-reprend toutes les fonctions de la version standard actuelle, + les ajouts de la version HAT (sans la liaison avec le pi)
-
-connexion des moteurs sur bornier, encodeur + ST4, T° focuser et polar sur header 2.54mm
-
-prévu pour un boitier alu extrudé de 60x80 (hammond) ou intégration directement dans la monture (impression 3D)
-
-PCB 4 couches, CMS double face
-
-- #### Version Mini
-
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Mini_top_small.png)
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Mini_bot_small.png)
 
-c'est la version "low cost" developpée pour mon projet principal (kit de modif d'un petit dobson de table, le 130 heritage de SW)
+La version mini de la Mini
 
 	- 2 moteurs
 	- GPS intégré
@@ -121,18 +98,18 @@ c'est la version "low cost" developpée pour mon projet principal (kit de modif 
 	- pas d'interface avec le PI
 	- pas de ST4
 
-prévu pour un boitier alu extrudé de 60x80 (hammond)
+prévu pour un boitier alu extrudé de 60x80 (hammond) ou intégration directement dans la monture (impression 3D)
 
-PCB 4 couches, CMS simple face
+- #### version Mini Classic
 
-- #### version "traditionnelle"
+**design à terminer**
 
 ![Schéma](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/HAT/Schematic_TeenAstro_v3.0_trad.png)
 ![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_planche_a_clous.png)
 
-version quick n dirty, juste pour voir (pas verifié, pas peaufiné, à ne pas fabriquer !)
+* Compatible avec la Mini 2.4
 
-il manque les encodeurs, car ils sont quasiment tous en 5V, hors le teensy n'accepte que 3V3 sur ses entrées. il faut trouver une puce pour adapter les tensions
+* pour une upgrade à moindre frais vers le teensy 4 + encodeurs
 
 ### Evolution du soft
 Dans un premier temps, il y a juste un remap des pins à faire dans le firmware pour récuperer les fonctions de base
