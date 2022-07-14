@@ -135,7 +135,6 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 ![back_power](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_back_power.png)
 
 * utilisation d'un CI spécialisé pour proteger au max le PI (limite de courant)
-
 * Empeche d'envoyer l'alimentation vers le PI s'il est déjà alimenté
 
 ## Power
@@ -144,18 +143,16 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 
 ![power_in](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_power_in.png)
 
-* [TPS54331](https://github.com/lordzurp/TeenAstro_Redux/blob/master/Datasheets/%231_power/tps54331.pdf)
-
 * Protection contre les inversions
-
 * Protection contre les surtensions
-
 * Fusible réarmable (polyfuse) 3A
 
 ### Step-down
 
 ![step_down](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_step_down.png)
 
+
+* [TPS54331](https://github.com/lordzurp/TeenAstro_Redux/blob/master/Datasheets/%231_power/tps54331.pdf)
 * Umax 25V
 * Imax 3A
 
@@ -164,7 +161,6 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 ![battery](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_battery.png)
 
 * **LM1220** rechargeable, se recharge lorsque que le TeenAstro est branché, autonomie théorique 3 mois
-
 * **ne pas installer de pille CR1220 !!!**
 
 ### Protection ESD
@@ -178,11 +174,8 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 ![motor](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_motor.png)
 
 * MosFet intégré
-
 * Imax 2.8A
-
 * Sense resistance 0,075R
-
 * Connecteurs moteur
 	* Rapide 
 	* Vis 
