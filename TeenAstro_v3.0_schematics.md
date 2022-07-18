@@ -168,10 +168,11 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 
 * Ecrétage des surtensions sur jack et USB
 
-## Pilotes de moteur **TMC2660C**
+## Pilotes de moteur pas à pas
 
 ![motor](Images/schematic_motor.png)
 
+* **[TMC2660C](Datasheets/%236_Stepper_drivers/Datasheets)**
 * MosFet intégré
 * Imax 2.8A
 * Sense resistance 0,075R
