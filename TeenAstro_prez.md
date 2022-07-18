@@ -90,7 +90,7 @@ compatible avec la plupart des boitiers PI (qui exposent les GPIO, bien sur)
 
 - #### Version Mini Redux
 
-**design à terminer**
+**design en cours**
 
 ![vue_3D](Mini-Redux/TeenAstro_v3.0-Mini-Redux_2_board_3D.thumb.png)
 
@@ -104,8 +104,6 @@ prévu pour un boitier alu extrudé [Farnell](https://fr.farnell.com/multicomp/m
 ![vue_3D](Mini-Classic/TeenAstro_v3.0-Mini-Classic_2_board_3D.thumb.png)
 
 * Format identique à la Mini 2.4 (les facades sont à retoucher)
-
-* pour une upgrade à moindre frais vers le teensy 4 + encodeurs
 
 #### BOM additionnelle
 
