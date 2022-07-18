@@ -96,7 +96,7 @@ compatible avec la plupart des boitiers PI (qui exposent les GPIO, bien sur)
 
 La version mini de la Mini
 
-prévu pour un boitier alu extrudé [Farnell](https://fr.farnell.com/multicomp/mc002185/coffret-usage-multiple-alum-noir/dp/2830518) ou intégration directement dans la monture (impression 3D)
+prévu pour un boitier alu extrudé  ou intégration directement dans la monture (impression 3D)
 
 - #### version Mini Classic
 
@@ -106,8 +106,8 @@ prévu pour un boitier alu extrudé [Farnell](https://fr.farnell.com/multicomp/m
 
 #### BOM additionnelle
 
-* Teensy MicroMod [digikey](https://www.digikey.fr/fr/products/detail/sparkfun-electronics/DEV-16402/13282889)
-* DC-in avec switch intégré [glissière](https://www.digikey.fr/fr/products/detail/adafruit-industries-llc/3642/8346573) ou [bascule](https://www.digikey.fr/fr/products/detail/adafruit-industries-llc/3643/8346574)
+* Teensy MicroMod [digikey](https://www.digikey.fr/fr/products/detail/sparkfun-electronics/DEV-16402/13282889) 30€
+* DC-in avec switch intégré [glissière](https://www.digikey.fr/fr/products/detail/adafruit-industries-llc/3642/8346573) ou [bascule](https://www.digikey.fr/fr/products/detail/adafruit-industries-llc/3643/8346574) 2€50
 * jack 3.5mm 4 points [Farnell](https://fr.farnell.com/multicomp/mc001293/connecteur-audio-jack-4-voies/dp/2613990?MER=sy-me-pd-mi-alte)
 * connecteur 4P 3.5mm x2 
 	* [version droite](https://fr.farnell.com/multicomp/mc000082/embase-3-5mm-vertical-12a-04-voies/dp/2008057?MER=sy-me-pd-mi-acce)
@@ -120,10 +120,11 @@ prévu pour un boitier alu extrudé [Farnell](https://fr.farnell.com/multicomp/m
 * bornier 40pts rPI [Farnell](https://fr.farnell.com/multicomp/2214s-40sg-85/connecteur-femelle-40-voies-2/dp/2847248)
 * micro-switch 90° [Farnell](https://fr.farnell.com/c-k-components/pts645vh58-2lfs/commutateur-spst-0-05a-12vdc-tht/dp/2320088)
 * plot à souder 2.5mm H: 4.8mm [Farnell](https://fr.farnell.com/wurth-elektronik/9774050151r/entretoise-ronde-cms-acier-m2/dp/2497604)
-* batterie LM1220
-* antenne GPS
+* batterie LM1220 (amazon, 2-3€)
+* antenne GPS (aliexpress, 2-3€)
+* [versin Redux] boitier alu [Farnell](https://fr.farnell.com/multicomp/mc002185/coffret-usage-multiple-alum-noir/dp/2830518) 
 
-panier farnell : 
+panier farnell : 20€
 
 ### Evolution du soft
 
