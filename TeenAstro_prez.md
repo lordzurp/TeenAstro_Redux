@@ -68,7 +68,7 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 ### Versions Mini
 
 
-[Description détaillée](TeenAstro_v3.0_schematics.md), [Schéma complet ](TeenAstro_v3.0_Mini_Schematics) en PDF et page par page ([Teensy](TeenAstro_v3.0_Mini-Motors.png), [Power](TeenAstro_v3.0_Mini-Power.png) et [Moteurs](TeenAstro_v3.0_Mini-Teensy.png)) en png
+[Description détaillée](TeenAstro_v3.0_schematics.md), [Schéma complet ](TeenAstro_v3.0_Mini_Schematics.pdf) en PDF et page par page ([Teensy](TeenAstro_v3.0_Mini-Motors.png), [Power](TeenAstro_v3.0_Mini-Power.png) et [Moteurs](TeenAstro_v3.0_Mini-Teensy.png)) en png
 
 - #### Version Mini-HAT
 
