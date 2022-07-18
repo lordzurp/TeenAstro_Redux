@@ -89,7 +89,7 @@ les [Schémas](TeenAstro_v3.0_Mini_Schematics) en PDF et les pages [Teensy](Teen
 
 - #### Version Mini-HAT
 
-![vue_3D](Mini-HAT/TeenAstro_v3.0-Mini-Classic_2_board_3D.thumb.png)
+![vue_3D](Mini-HAT/TeenAstro_v3.0-Mini-HAT_2_board_3D.thumb.png)
 
 HAT : Hardware Attached on Top -> carte montée au dessus
 
