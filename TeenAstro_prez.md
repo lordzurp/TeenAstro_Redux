@@ -89,7 +89,7 @@ les [Schémas](https://github.com/lordzurp/TeenAstro_Redux/blob/master/HAT/Schem
 
 - #### Version Mini-HAT
 
-![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Mini-HAT.thumb2.png)
+![ScreenShot](Images/TeenAstro_v3.0_Mini-HAT.thumb2.png)
 
 HAT : Hardware Attached on Top -> carte montée au dessus
 
@@ -111,7 +111,7 @@ compatible avec la plupart des boitiers PI (qui exposent les GPIO, bien sur)
 
 La version mini de la Mini
 
-prévu pour un boitier alu extrudé (Farnell)[https://fr.farnell.com/multicomp/mc002185/coffret-usage-multiple-alum-noir/dp/2830518] ou intégration directement dans la monture (impression 3D)
+prévu pour un boitier alu extrudé [Farnell](https://fr.farnell.com/multicomp/mc002185/coffret-usage-multiple-alum-noir/dp/2830518) ou intégration directement dans la monture (impression 3D)
 
 - #### version Mini Classic
 
