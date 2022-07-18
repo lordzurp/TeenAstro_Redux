@@ -85,11 +85,11 @@ tous les autres blocs ont été testé et validé sur les différents proto (sau
 ### Versions prévues (design en phase finale)
 
 
-les [Schémas](https://github.com/lordzurp/TeenAstro_Redux/blob/master/HAT/Schematic_TeenAstro_v3.0.pdf) en PDF et le [schéma tout-sur-une-page](https://github.com/lordzurp/TeenAstro_Redux/blob/master/HAT/Schematic_TeenAstro_v3.0_single_sheet.png) en png
+les [Schémas](TeenAstro_v3.0_Mini_Schematics) en PDF et les pages [Teensy](TeenAstro_v3.0_Mini-Motors.png) [Power](TeenAstro_v3.0_Mini-Power.png) [Moteurs](TeenAstro_v3.0_Mini-Teensy.png) en png
 
 - #### Version Mini-HAT
 
-![ScreenShot](Images/TeenAstro_v3.0_Mini-HAT.thumb2.png)
+![vue_3D](Mini-HAT/TeenAstro_v3.0-Mini-Classic_2_board_3D.thumb.png)
 
 HAT : Hardware Attached on Top -> carte montée au dessus
 
@@ -107,7 +107,9 @@ compatible avec la plupart des boitiers PI (qui exposent les GPIO, bien sur)
 
 - #### Version Mini Redux
 
-![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_Mini-Redux_small.png)
+**design à terminer**
+
+![vue_3D](Mini-Redux/TeenAstro_v3.0-Mini-Redux_2_board_3D.thumb.png)
 
 La version mini de la Mini
 
@@ -115,14 +117,32 @@ prévu pour un boitier alu extrudé [Farnell](https://fr.farnell.com/multicomp/m
 
 - #### version Mini Classic
 
-**design à terminer**
-
 ![Schéma](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/HAT/Schematic_TeenAstro_v3.0_trad.png)
-![ScreenShot](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Images/TeenAstro_v3.0_planche_a_clous.png)
+![vue_3D](Mini-Classic/TeenAstro_v3.0-Mini-Classic_2_board_3D.thumb.png)
 
-* Compatible avec la Mini 2.4
+* Format identique à la Mini 2.4 (les facades sont à retoucher)
 
 * pour une upgrade à moindre frais vers le teensy 4 + encodeurs
+
+#### BOM additionnelle
+
+* Teensy MicroMod [digikey](https://www.digikey.fr/fr/products/detail/sparkfun-electronics/DEV-16402/13282889)
+* DC-in avec switch intégré [glissière](https://www.digikey.fr/fr/products/detail/adafruit-industries-llc/3642/8346573) ou [bascule](https://www.digikey.fr/fr/products/detail/adafruit-industries-llc/3643/8346574)
+* jack 3.5mm 4 points [Farnell](https://fr.farnell.com/multicomp/mc001293/connecteur-audio-jack-4-voies/dp/2613990?MER=sy-me-pd-mi-alte)
+* connecteur 4P 3.5mm x2 
+	* [version droite](https://fr.farnell.com/multicomp/mc000082/embase-3-5mm-vertical-12a-04-voies/dp/2008057?MER=sy-me-pd-mi-acce)
+	* [version coudée}](https://fr.farnell.com/amphenol-fci/20020110-c041a01lf/terminal-block-pluggable-4-position/dp/1787818?MER=sy-me-pd-mi-alte)
+	* [connecteur droit](https://fr.farnell.com/multicomp/mc000066/fiche-3-5mm-coude-10a-04-voies/dp/2008039?MER=sy-me-pd-mi-acce)
+	* [connecteur coudé](https://fr.farnell.com/multicomp/mc000058/fiche-3-5mm-droit-10a-04-voies/dp/2008030?MER=sy-me-pd-mi-acce)
+	* [bornier à vis](https://fr.farnell.com/molex/39357-0004/bornier-fil-a-carte-4-voies-16awg/dp/3863541?MER=sy-me-pd-mi-alte)
+* Header à broches 2x5pts 2.54m male [Farnell](https://fr.farnell.com/multicomp/2213s-10g/embase-male-2-rangee-vert-10voies/dp/1593442)
+* header à broches 2x4pts 2.54mm femelle [Farnell](https://fr.farnell.com/multicomp/2214s-08sg-85/fiche-femelle-ci-2-rangee-vert/dp/1593489)
+* micro-switch 90° [Farnell](https://fr.farnell.com/c-k-components/pts645vh58-2lfs/commutateur-spst-0-05a-12vdc-tht/dp/2320088)
+* plot à souder 2.5mm H: 4.8mm [Farnell](https://fr.farnell.com/wurth-elektronik/9774050151r/entretoise-ronde-cms-acier-m2/dp/2497604)
+* batterie LM1220
+* antenne GPS
+
+panier farnell : 
 
 ### Evolution du soft
 
