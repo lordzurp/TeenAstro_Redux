@@ -100,7 +100,6 @@ prévu pour un boitier alu extrudé [Farnell](https://fr.farnell.com/multicomp/m
 
 - #### version Mini Classic
 
-![Schéma](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/HAT/Schematic_TeenAstro_v3.0_trad.png)
 ![vue_3D](Mini-Classic/TeenAstro_v3.0-Mini-Classic_2_board_3D.thumb.png)
 
 * Format identique à la Mini 2.4 (les facades sont à retoucher)
