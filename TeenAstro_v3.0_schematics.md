@@ -12,7 +12,7 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
  ![teensy](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/1/2/6/6/MM_Teensy_PB_Thumb.jpg)
 
 
-![teensy](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_teensy.png)
+![teensy](Images/schematic_teensy.png)
 
 #### Pin Out
 
@@ -76,21 +76,21 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 
 ## SHC
 
-![gps](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_SHC.png)
+![gps](Images/schematic_SHC.png)
 
 * Connexion Jack 4 points
 * Reservé pour plus tard : module **nRF24** en SPI
 
 ## GNSS
 
-![gps](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_gps.png)
+![gps](Images/schematic_gps.png)
 
-* pour test : module GPS + Beidou [ATGM336]((https://github.com/lordzurp/TeenAstro_Redux/raw/master/Datasheets/%233_Peripheriques/ATGM336H-5N31.pdf) intégré, connecteur antenne UF.L
+* pour test : module GPS + Beidou [ATGM336]((Datasheets/%233_Peripheriques/ATGM336H-5N31.pdf) intégré, connecteur antenne UF.L
 * secours : Module GPS NEO-6/7/8 classique ( 4 pins)
 
 ## Port USB
 
-![usb](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_usb.png)
+![usb](Images/schematic_usb.png)
 
 * Connecteur USB-C
 * Liaison PC et programmation / flash firmware
@@ -106,7 +106,7 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 
 ### GPIO
 
-![pi](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_pi_gpio.png)
+![pi](Images/schematic_pi_gpio.png)
 
 #### Config Pinout
 
@@ -120,18 +120,11 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 * Led red : heartbeat
 * Led green : CPU activity
 
-### Protection PI
-
-![back_power](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_back_power.png)
-
-* utilisation d'un CI spécialisé pour proteger au max le PI (limite de courant)
-* Empeche d'envoyer l'alimentation vers le PI s'il est déjà alimenté
-
 ## Power
 
 ### Protection inversion
 
-![power_in](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_power_in.png)
+![power_in](Images/schematic_power_in.png)
 
 * Protection contre les inversions
 * Protection contre les surtensions
@@ -139,38 +132,45 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 
 ### Step-down 5V
 
-![step_down](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_step_down.png)
+![step_down](Images/schematic_step_down.png)
 
 
-* [TPS54331](https://github.com/lordzurp/TeenAstro_Redux/blob/master/Datasheets/%231_power/tps54331.pdf)
+* [TPS54331](Datasheets/%231_power/tps54331.pdf)
 * Umax 25V
 * Imax 3A
 
 ### LDO 3V3
 
-![step_down](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_LDO.png)
+![step_down](Images/schematic_LDO.png)
 
 
-* [AMS1117-3-3](https://github.com/lordzurp/TeenAstro_Redux/blob/master/Datasheets/%231_power/AMS1117-3-3.pdf)
+* [AMS1117-3-3](Datasheets/%231_power/AMS1117-3-3.pdf)
 * Umax 25V
 * Imax 3A
 
 ### Batterie
 
-![battery](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_battery.png)
+![battery](Images/schematic_battery.png)
 
 * **LM1220** rechargeable, se recharge lorsque que le TeenAstro est branché, autonomie théorique 3 mois
-* **ne pas installer de pille CR1220 !!!**
+* **ne pas installer de pile CR1220 !!!**
+
+### Protection PI
+
+![back_power](Images/schematic_back_power.png)
+
+* utilisation d'un CI spécialisé pour proteger au max le PI (limite de courant) [MT9700](Datasheets/%231_power/MT9700_Power_switch.pdf)
+* Empeche d'envoyer l'alimentation vers le PI s'il est déjà alimenté
 
 ### Protection ESD
 
-![esd](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_esd.png)
+![esd](Images/schematic_esd.png)
 
 * Ecrétage des surtensions sur jack et USB
 
 ## Pilotes de moteur **TMC2660C**
 
-![motor](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_motor.png)
+![motor](Images/schematic_motor.png)
 
 * MosFet intégré
 * Imax 2.8A
@@ -182,7 +182,7 @@ On passe du Teensy 3.2 au **Teensy 4.1**, au format MicroMod (by [sparkfun](http
 
 ## Encodeurs
 
-![encoders](https://github.com/lordzurp/TeenAstro_Redux/raw/master/Images/schematic_encoders.png)
+![encoders](Images/schematic_encoders.png)
 
 * Gestion hardware par le Teensy 4
 	* Libraires :
