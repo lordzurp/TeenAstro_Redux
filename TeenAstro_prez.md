@@ -117,6 +117,7 @@ prévu pour un boitier alu extrudé [Farnell](https://fr.farnell.com/multicomp/m
 	* [bornier à vis](https://fr.farnell.com/molex/39357-0004/bornier-fil-a-carte-4-voies-16awg/dp/3863541?MER=sy-me-pd-mi-alte)
 * Header à broches 2x5pts 2.54m male [Farnell](https://fr.farnell.com/multicomp/2213s-10g/embase-male-2-rangee-vert-10voies/dp/1593442)
 * header à broches 2x4pts 2.54mm femelle [Farnell](https://fr.farnell.com/multicomp/2214s-08sg-85/fiche-femelle-ci-2-rangee-vert/dp/1593489)
+* bornier 40pts rPI [Farnell](https://fr.farnell.com/multicomp/2214s-40sg-85/connecteur-femelle-40-voies-2/dp/2847248)
 * micro-switch 90° [Farnell](https://fr.farnell.com/c-k-components/pts645vh58-2lfs/commutateur-spst-0-05a-12vdc-tht/dp/2320088)
 * plot à souder 2.5mm H: 4.8mm [Farnell](https://fr.farnell.com/wurth-elektronik/9774050151r/entretoise-ronde-cms-acier-m2/dp/2497604)
 * batterie LM1220
