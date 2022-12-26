@@ -24,6 +24,8 @@ Great Shortage in 2022 make Teensy boards very hard to find, so a new challenger
 At 2023, the final version of v2.6 is **ready to build**
 
 
+![3D_board](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Redux_v2.6/TeenAstro_v2.6-Redux_2_board_3D.png)
+
 ## Features
 All the features of TeenAstro regular boards are present in the v2.6 version
 
