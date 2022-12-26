@@ -27,7 +27,7 @@ At 2023, the final version of v2.6 is **ready to build**
 ![3D_board](https://raw.githubusercontent.com/lordzurp/TeenAstro_Redux/master/Redux_v2.6/TeenAstro_v2.6-Redux_2_board_3D.png)
 
 ## Features
-All the features of TeenAstro regular boards are present in the v2.6 version
+Almost all the features of TeenAstroMini boards are present in the v2.6 version
 
 * Compatible with **TeenAstro software**
 * ASCOM and INDI USB driver
@@ -36,7 +36,11 @@ All the features of TeenAstro regular boards are present in the v2.6 version
 * 12V 1.5A PowerDelivery input
 * up to 2A stepper motor
 * on-board GPS
-* on-board WiFi module (in SHC)
+
+Removed features :
+
+* no ST4 port - guiding via USB only
+* no polar LED output
 
 
 ## So, what is new ?
@@ -45,7 +49,7 @@ Some improvements were made from the publicly released version 2.4, based on the
 * **Teensy 4.0** new board, more powerfull CPU, but in 3.3V only, and with a different pins mapping
 * **MicroMod form-factor**, no more headers to sold
 * **on-board stepper drivers** 
-* smaller board, which make possible direct integration **into** the mount enclosure
+* **smaller board**, which make possible direct integration **into** the mount enclosure
 
 ## Sources
 All necessary files are available in this repo, so you can build your own easily. Don't forget to take a look into the [project homepage](https://groups.io/g/TeenAstro/wiki/Home)
@@ -53,12 +57,13 @@ The software is available from [TeenAstro repo](https://github.com/charleslemair
 
 ## Build
 The boards were designed to be **assembled by JLCpcb**, a Chinese specialist in prototypes (the gerbers files follows their specs and the list of components is selected from their catalog).
+Complete productions files are available for direct order from JLCpcb..
 
-A additional part list from [Farnell](https://fr.farnell.com) is provided.
-Some parts are specific, but there most are common components which can be bought from any seller
+Additionnals components :
 
-Further instructions can be found into the dedicated sub-folders
-
+* M3x4mm screw (for M.2 module)
+* GNNS Module (NEO-6/7/8 successfully tested)
+* 1220 Battery SMD holder : https://fr.farnell.com/multicomp/ch291-1220lf/battery-holder-smt-12mm/dp/2064722
 
 
 ## Support
