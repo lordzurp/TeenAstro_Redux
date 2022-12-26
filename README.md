@@ -19,21 +19,20 @@ The Great Fall 2020 containment yielded the second prototype, and too many follo
 
 As a side project started with a joke ("Can it fit into a tic-tac box ?"), the **SuperRedux** flavor followed a different way from the first draw, with stacking boards upto the Teensy board, and goes to a even smaller product. It works, but was a nightmare to built.
 
+Great Shortage in 2022 make Teensy boards very hard to find, so a new challenger comes into the MicroMod form-factor, made by Sparkfun : an standard M.2 connector, with small minimal MCU board embedded.
 
-At 2022 spring, the final version of v3.0 is **ready to build**
+At 2023, the final version of v2.6 is **ready to build**
 
 
 ## Features
-All the features of TeenAstro regular boards are present in the v3.0 version
+All the features of TeenAstro regular boards are present in the v2.6 version
 
 * Compatible with **TeenAstro software**
 * ASCOM and INDI USB driver
 * **MicroMod Teensy** (from Sparkfun) to reduce footprint
 * TMC2660 motor driver
-* up to 25V power voltage
-* up to 3A stepper motor
-* Polarity inversion protection
-* focuser no longer require second Teensy
+* 12V 1.5A PowerDelivery input
+* up to 2A stepper motor
 * on-board GPS
 * on-board WiFi module (in SHC)
 
@@ -42,6 +41,7 @@ All the features of TeenAstro regular boards are present in the v3.0 version
 Some improvements were made from the publicly released version 2.4, based on the 2.5 work (teensy 4.0)
 
 * **Teensy 4.0** new board, more powerfull CPU, but in 3.3V only, and with a different pins mapping
+* **MicroMod form-factor**, no more headers to sold
 * **on-board stepper drivers** 
 * smaller board, which make possible direct integration **into** the mount enclosure
 
